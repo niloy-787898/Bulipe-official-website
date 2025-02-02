@@ -1,0 +1,159 @@
+[
+  {
+    "slug": null,
+    "key": "products",
+    "order": 1,
+    "icon": "",
+    "label": "প্রোডাক্টস",
+    "submenu": [
+      {
+        "slug": "/products/vonome-product-sme",
+        "key": "product-sme",
+        "order": 1,
+        "icon": "assets/sme.svg",
+        "label": "ভোনোম এসএমই"
+      },
+      {
+        "slug": "/products/vonome-product-erp",
+        "key": "product-erp",
+        "order": 2,
+        "icon": "assets/erp.svg",
+        "label": "ক্লাউড ইআরপি"
+      },
+      {
+        "slug": "/products/vonome-product-hrpayroll",
+        "key": "product-hrpayroll",
+        "order": 3,
+        "icon": "assets/hr.svg",
+        "label": "এইচআর এন্ড পেরোল"
+      },
+      {
+        "slug": "/products/vonome-product-easyaccounts",
+        "key": "product-easyaccounts",
+        "order": 4,
+        "icon": "assets/accounting.svg",
+        "label": "ইজি একাউন্টিং"
+      },
+      {
+        "slug": "/products/vonome-product-invoicemanager",
+        "key": "product-invoicemanager",
+        "order": 5,
+        "icon": "assets/e-invoice.svg",
+        "label": "ইনভয়েস ম্যানেজার"
+      },
+      {
+        "slug": "/products/vonome-product-crm",
+        "key": "product-crm",
+        "order": 6,
+        "icon": "assets/crm.svg",
+        "label": "ভোনোম সিআরএম"
+      },
+      {
+        "slug": "/products/vonome-product-task-bing",
+        "key": "product-task-bing",
+        "order": 7,
+        "icon": "assets/task_bing.svg",
+        "label": "টাস্ক বিং"
+      }
+    ]
+  },
+  {
+    "slug": null,
+    "key": "helpful",
+    "order": 2,
+    "icon": "",
+    "label": "হেল্পফুল",
+    "description": "",
+    "submenu": [
+      {
+        "slug": "/page/features",
+        "key": "features",
+        "order": 1,
+        "label": "ফিচারস"
+      },
+      {
+        "slug": "/page/blog",
+        "key": "blog",
+        "order": 2,
+        "label": "ব্লগ"
+      },
+      {
+        "slug": "/page/faq",
+        "key": "faq",
+        "order": 3,
+        "label": "প্রশ্নোত্তর"
+      },
+      {
+        "slug": "/page/help-center",
+        "key": "help-center",
+        "order": 4,
+        "label": "হেল্প সেন্টার"
+      }
+    ]
+  },
+  {
+    "slug": null,
+    "key": "company",
+    "order": 3,
+    "icon": "",
+    "label": "কোম্পানি",
+    "description": "",
+    "submenu": [
+      {
+        "slug": "/page/about-us",
+        "key": "about-us",
+        "order": 1,
+        "label": "আমাদের সম্পর্কে"
+      },
+      {
+        "slug": "/page/user-agreement",
+        "key": "user-agreement",
+        "order": 2,
+        "label": "ব্যবহারকারী চুক্তি"
+      },
+      {
+        "slug": "/page/privacy-policy",
+        "key": "privacy-policy",
+        "order": 3,
+        "label": "গোপনীয়তা নীতি"
+      },
+      {
+        "slug": "/page/community-guideline",
+        "key": "community-guidline",
+        "order": 4,
+        "label": "কমিউনিটি নির্দেশিকা"
+      }
+    ]
+  },
+  {
+    "slug": null,
+    "key": "contact",
+    "order": 4,
+    "icon": "",
+    "label": "যোগাযোগ",
+    "description": "",
+    "submenu": [
+      {
+        "slug": "https://www.google.com/maps/dir/23.8452736,90.3806976/google+map+vonome/@23.8386338,90.3684907,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3755c7eaec875b91:0xa234c51973da643e!2m2",
+        "key": "view-on-map",
+        "order": 1,
+        "icon": "assets/location-dot-solid.svg",
+        "label": "গুগল ম্যাপে দেখুন"
+      },
+      {
+        "slug": "/phone",
+        "key": "phone",
+        "order": 2,
+        "icon": "assets/phone.svg",
+        "label": "09606007000"
+      },
+      {
+        "slug": "/mail",
+        "key": "mail",
+        "order": 3,
+        "icon": "assets/envelope-regular.svg",
+        "label": "info@vonome.com"
+      }
+    ]
+  }
+]

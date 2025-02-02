@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "assets/sme.svg",
+    "titles": "SME",
+    "headings": "Vonome SME Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Digital Transformation",
+        "accordianContent": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies."
+      },
+      {
+        "accordianHeading": "Customer Relationship Management",
+        "accordianContent": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies."
+      },
+      {
+        "accordianHeading": "Financial Management and Funding",
+        "accordianContent": "Effective financial management is essential for the long-term success of SMEs. This section will cover topics such as budgeting, cash flow management, financial forecasting, and accessing funding options specifically tailored for SMEs. It can provide guidance on financial best practices, working with investors, and utilizing government programs and grants"
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/erp.svg",
+    "titles": "ERP",
+    "headings": "Vonome ERP Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Process Automation",
+        "accordianContent": "Improve operational efficiency by automating manual tasks, such as order processing, inventory management, and financial reporting, reducing errors and saving time for employees."
+      },
+      {
+        "accordianHeading": "Inventory Optimization",
+        "accordianContent": "Optimize inventory levels, reduce stockouts and overstock situations, and gain real-time visibility into inventory across multiple locations for effective supply chain management."
+      },
+      {
+        "accordianHeading": "Real-time Analytics",
+        "accordianContent": "Make informed business decisions with real-time analytics, customizable dashboards, and comprehensive reporting, providing valuable insights into performance, trends, and opportunities."
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/crm.svg",
+    "titles": "CRM",
+    "headings": "Vonome CRM Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Email Privacy Settings",
+        "accordianContent": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure."
+      },
+      {
+        "accordianHeading": "Emails at Scale",
+        "accordianContent": "Reach large audiences at scale with personalized messages using the mass email feature. By selecting recipients, adding personalizations based on columns, and using templates, sales reps can send hundreds of emails in a fraction of the time."
+      },
+      {
+        "accordianHeading": "Ranked in a Leaderboard",
+        "accordianContent": "With the new Leaderboard widget, you can see your sales reps ranked based on performance. Know who’s excelling and who needs extra support based on metrics like win rate, deal value, conversion rate, and more. Plus, see the average length of each phase."
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/hr.svg",
+    "titles": "HR",
+    "headings": "Vonome HR Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Integration Capabilities",
+        "accordianContent": "Integrate HR and Payroll systems with accounting, employee management, and time-tracking tools for smooth data exchange, eliminating duplication of efforts."
+      },
+      {
+        "accordianHeading": "Data Security",
+        "accordianContent": "Implement robust security measures, including encryption and access controls, to safeguard sensitive employee information and prevent data breaches."
+      },
+      {
+        "accordianHeading": "Compliance Management",
+        "accordianContent": "Stay up to date with changing regulations, generate accurate reports for taxes and benefits, and reduce the risk of penalties and audits."
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/e-invoice.svg",
+    "titles": "Invoice",
+    "headings": "Vonome Invoice Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Email Privacy Settings",
+        "accordianContent": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure."
+      },
+      {
+        "accordianHeading": "Error-free and Compliant Invoices",
+        "accordianContent": "Ensure accurate invoice information and compliance with tax regulations, reducing the risk of errors, disputes, and penalties associated with manual invoicing."
+      },
+      {
+        "accordianHeading": "Seamless Integration",
+        "accordianContent": "Seamlessly integrate e-invoicing with your existing accounting or ERP systems, enabling smooth data exchange, reducing duplication, and improving data accuracy."
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 6,
+    "imageUrl": "assets/accounting.svg",
+    "titles": "Accounting",
+    "headings": "Vonome Accounting Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Reporting and Analytics",
+        "accordianContent": "Generate detailed reports and analytics on financial performance, customer behavior, and account activity, facilitating informed decision-making."
+      },
+      {
+        "accordianHeading": "Account Integration",
+        "accordianContent": "Integrate with other systems such as CRM or ERP to synchronize customer data, streamline operations, and ensure data consistency across platforms."
+      },
+      {
+        "accordianHeading": "Audit Trail",
+        "accordianContent": "Maintain a complete audit trail of account activities, including user actions, changes to account settings, and transaction history for compliance and accountability purposes."
+      }
+    ],
+    "expanded": false
+  },
+  {
+    "id": 7,
+    "imageUrl": "assets/task_bing.svg",
+    "titles": "Task Bing",
+    "headings": "Vonome Task Bing",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "accordian": [
+      {
+        "accordianHeading": "Collaborative Workspaces",
+        "accordianContent": "Create shared workspaces for teams, enabling seamless collaboration, communication, and task coordination, fostering teamwork and boosting productivity."
+      },
+      {
+        "accordianHeading": "Assign and Delegate Tasks",
+        "accordianContent": "Assign tasks to team members, delegate responsibilities, and track progress, promoting accountability and ensuring tasks are appropriately distributed."
+      },
+      {
+        "accordianHeading": "Integration and Automation",
+        "accordianContent": "Integrate Task Bing with other tools and systems, automate repetitive tasks, and streamline workflows, enhancing efficiency and reducing manual effort."
+      }
+    ],
+    "expanded": false
+  }
+]

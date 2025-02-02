@@ -1,0 +1,1918 @@
+{
+  "app-main-menu": [
+    {
+      "slug": null,
+      "key": "products",
+      "order": 1,
+      "icon": "",
+      "label": "HOME",
+      "description": "",
+      "submenu": [
+
+      ]
+    },
+    {
+      "slug": "/page/services",
+      "key": "services",
+      "order": 2,
+      "icon": "",
+      "label": "About Us",
+      "description": "",
+      "submenu": []
+    },
+    {
+      "slug": null,
+      "key": "company",
+      "order": 3,
+      "icon": "",
+      "label": "PROGRAMS",
+      "description": "",
+      "submenu": [
+
+      ]
+    },
+    {
+      "slug": "/page/docs-resources",
+      "key": "LOCATIONS",
+      "order": 4,
+      "icon": "",
+      "label": "Docs & Resource",
+      "description": "",
+      "submenu": []
+    },
+    {
+      "slug": "/page/docs-resources",
+      "key": "CAREER",
+      "order": 5,
+      "icon": "",
+      "label": "CAREER",
+      "description": "",
+      "submenu": []
+    },
+    {
+      "slug": "/page/docs-resources",
+      "key": "CONTACT US",
+      "order": 6,
+      "icon": "",
+      "label": "CONTACT US",
+      "description": "",
+      "submenu": []
+    }
+  ],
+  "hero-section": [
+    {
+      "slug": "/products/vonome-product-sme",
+      "key": "product-sme",
+      "order": 1,
+      "icon": "assets/sme.svg",
+      "label": "SME"
+    },
+    {
+      "slug": "/products/vonome-product-crm",
+      "key": "products",
+      "order": 2,
+      "icon": "assets/crm.svg",
+      "label": "CRM"
+    },
+    {
+      "slug": "/products/vonome-product-erp",
+      "key": "product-erp",
+      "order": 3,
+      "icon": "assets/erp.svg",
+      "label": "ERP"
+    },
+    {
+      "slug": "/products/vonome-product-hrpayroll",
+      "key": "product-hrpayroll",
+      "order": 4,
+      "icon": "assets/hr.svg",
+      "label": "HR"
+    },
+    {
+      "slug": "/products/vonome-product-invoicemanager",
+      "key": "product-invoicemanager",
+      "order": 5,
+      "icon": "assets/e-invoice.svg",
+      "label": "E-Invoice"
+    },
+    {
+      "slug": "/products/vonome-product-easyaccounts",
+      "key": "product-easyaccounts",
+      "order": 6,
+      "icon": "assets/accounting.svg",
+      "label": "Accounting"
+    },
+    {
+      "slug": "/products/vonome-product-task-bing",
+      "key": "product-task-bing",
+      "order": 7,
+      "icon": "assets/task_bing.svg",
+      "label": "Task Bing"
+    }
+  ],
+  "highlights-data": [
+    {
+      "percent": "30%",
+      "title": "More efficient",
+      "contents": "Boost your productivity by 30% with our cutting-edge solutions. Experience efficiency like never before!"
+    },
+    {
+      "percent": "40%",
+      "title": "Cost savings",
+      "contents": "Unlock substantial savings of 48% with our cost-effective solutions. Optimize your budget today!"
+    },
+    {
+      "percent": "2x Productive",
+      "title": "Cutting-Edge Technology",
+      "contents": "Revolutionize with cutting-edge technology. Unleash innovation and stay ahead of the curve."
+    }
+  ],
+  "hrm-section-data": [
+    {
+      "imageUrl": "assets/board.svg",
+      "title": "Digital Skills Development",
+      "contents": "Effortlessly track and manage attendance. Gain real-time insights and streamline attendance management processes."
+    },
+    {
+      "imageUrl": "assets/frame.svg",
+      "title": "Skill Development",
+      "contents": "Simplify leave management effortlessly. Streamline requests, approvals, and tracking for a well-organized leave system."
+    },
+    {
+      "imageUrl": "assets/dashboard.svg",
+      "title": "All",
+      "contents": "Streamline payroll processes with ease. Simplify calculations, deductions, and reporting for seamless payroll management."
+    }
+  ],
+  "acc-section-data": [
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Supply Chain Module"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Manufacturing Management"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Accounts Management"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Accounts Management"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Accounts Management"
+    }
+  ],
+  "erp-section-data": [
+    {
+      "ImageUrl": "assets/images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdHAyNDctZWxlbWVudC0wMDI1YS1rem94azZjcy5wbmc.webp",
+      "heading": "Master In-Demand Digital Skills to Advance Your Career",
+      "contents": "Unlock career opportunities through our industry-recognized Digital Skill Development program. Begin your journey today with 300 local partners to stay ahead of the curve!",
+      "roles": "Co-Founder, Lebanon"
+    },
+    {
+      "ImageUrl": "assets/images/images.jpg",
+      "heading": "Earn Vendor Certifications and Join Us",
+      "contents": "Our post-training assessments connect you with leading U.S. certification providers. Join over 3,000 global partners across 21+ countries and begin your career today!",
+      "roles": "CEO & Founder, USA"
+    },
+    {
+      "ImageUrl": "assets/images/images1.png",
+      "heading": "Start Earning BDT 30,000 Monthly and Grow Your Skills",
+      "contents": "Salary-based employment starting at BDT 30,000, with the potential to exceed BDT 3,00,000+ as you up-skill and master new digital skills. Your earning potential is limitless.",
+      "roles": "Co-Founder, Bangladesh"
+    }
+  ],
+  "task-bing-section-data": [
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Supply Chain Module"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Manufacturing Management"
+    },
+    {
+      "ImageUrl": "assets/CheckCircle.svg",
+      "titles": "Accounts Management"
+    }
+  ],
+  "product-glance-section-data": [
+    {
+      "id": 1,
+      "imageUrl": "assets/sme.svg",
+      "titles": "SME",
+      "headings": "Vonome SME Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "assets/erp.svg",
+      "titles": "ERP",
+      "headings": "Vonome ERP Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "assets/crm.svg",
+      "titles": "CRM",
+      "headings": "Vonome CRM Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "assets/hr.svg",
+      "titles": "HR",
+      "headings": "Vonome HR Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "imageUrl": "assets/e-invoice.svg",
+      "titles": "Invoice",
+      "headings": "Vonome Invoice Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "imageUrl": "assets/accounting.svg",
+      "titles": "Accounting",
+      "headings": "Vonome Accounting Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "imageUrl": "assets/task_bing.svg",
+      "titles": "Task Bing",
+      "headings": "Vonome Task Bing",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+      "options": [
+        {
+          "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+        },
+        {
+          "content": "Client-server application, software development."
+        },
+        {
+          "content": "2Client-server application, software development."
+        }
+      ]
+    }
+  ],
+  "user-feedback-data": [
+    {
+      "ImageUrl": "assets/images/patterns.png",
+      "heading": "Master In-Demand Digital Skills to Advance Your Career",
+      "contents": "Unlock career opportunities through our industry-recognized Digital Skill Development program. Begin your journey today with 300 local partners to stay ahead of the curve!",
+      "roles": "Co-Founder, Lebanon"
+    },
+    {
+      "ImageUrl": "assets/images/patterns.png",
+      "heading": "Earn Vendor Certifications and Join Us",
+      "contents": "Our post-training assessments connect you with leading U.S. certification providers. Join over 3,000 global partners across 21+ countries and begin your career today!",
+      "roles": "CEO & Founder, USA"
+    },
+    {
+      "ImageUrl": "assets/images/patterns.png",
+      "heading": "Start Earning BDT 30,000 Monthly and Grow Your Skills",
+      "contents": "Salary-based employment starting at BDT 30,000, with the potential to exceed BDT 3,00,000+ as you up-skill and master new digital skills. Your earning potential is limitless.",
+      "roles": "Co-Founder, Bangladesh"
+    }
+  ],
+  "partner-data": [
+    {
+      "ImageUrl": "assets/funding.svg"
+    },
+    {
+      "ImageUrl": "assets/we.svg"
+    },
+    {
+      "ImageUrl": "assets/aws.svg"
+    },
+    {
+      "ImageUrl": "assets/wise.svg"
+    },
+    {
+      "ImageUrl": "assets/btcl.svg"
+    },
+    {
+      "ImageUrl": "assets/cloudflae.svg"
+    }
+  ],
+  "business-grow-section-data": [
+    {
+      "contents": "Free to use"
+    },
+    {
+      "contents": "Free to use"
+    },
+    {
+      "contents": "Free to use"
+    }
+  ],
+  "why-we-are-best-section-data": [
+    {
+      "url": "assets/dynamic/Vector (2).svg",
+      "headings": "Always Latest Technology",
+      "contents": "Stay up-to-date with the latest technological advancements and innovations. Our commitment to providing cutting-edge solutions ensures that you're always at the forefront of technology."
+    },
+    {
+      "url": "assets/dynamic/Vector (3).svg",
+      "headings": "Syber & Data Security",
+      "contents": "Our comprehensive cyber and data security solutions ensure that your valuable information remains safe and secure. Protect your digital assets with our state-of-the-art security measures."
+    },
+    {
+      "url": "assets/dynamic/Vector (4).svg",
+      "headings": "Modern Design & Experience",
+      "contents": "Immerse yourself in an exceptional digital experience with our modern and intuitive designs. We create user-centric interfaces that blend aesthetics with functionality."
+    },
+    {
+      "url": "assets/dynamic/Vector (5).svg",
+      "headings": "Multi-language Support",
+      "contents": "Expand your reach with our multi-language support. Communicate effectively with your global audience and provide a seamless experience in their preferred languages."
+    },
+    {
+      "url": "assets/dynamic/Vector (6).svg",
+      "headings": "Unlimited Customization",
+      "contents": "Tailor your digital presence exactly as you envision. With unlimited customization options, you have the power to create a unique and personalized online platform."
+    },
+    {
+      "url": "assets/dynamic/Vector (7).svg",
+      "headings": "Custom Form & Report Design",
+      "contents": "Efficiently collect data and gain insights with our custom form and report designs. Streamline your data management processes for better decision-making."
+    },
+    {
+      "url": "assets/dynamic/Vector (8).svg",
+      "headings": "Real-time Integrations & Automation",
+      "contents": "Connect and automate processes in real-time with our seamless integrations and automation solutions. Enhance efficiency and reduce manual workloads."
+    },
+    {
+      "url": "assets/dynamic/Vector (9).svg",
+      "headings": "Customizable Dashboard",
+      "contents": "Access key insights and data at a glance with our customizable dashboard. Tailor your dashboard to display the information that matters most to you."
+    },
+    {
+      "url": "assets/dynamic/Vector (10).svg",
+      "headings": "Live Chat, Goals, Collaborate in Real-time",
+      "contents": "Engage with your audience through live chat, track your goals, and collaborate seamlessly in real-time. Foster better communication and teamwork."
+    }
+  ],
+  "core-service-section-data": [
+    {
+      "id": 1,
+      "url": "assets/dynamic/Vector (2).svg",
+      "headingsRight": "To Empower Your Software Solutions",
+      "headingsleft": "Development Partner",
+      "headingsSubLeft": "Managed Software Development Team",
+      "headingsSubRight": "A Problem-Solving Workspace for Experienced Developers",
+      "contentsRight": "Our skilled team of developers serves as your trusted partner, delivering services tailored to your business goals. Across various technologies, we collaborate to create applications that align with your vision. Whether it's web development, mobile apps, or enterprise solutions, we ensure high-quality code and timely delivery for these priorities.",
+      "contentsLeft": "Our inclusive development firm provides managed services as your collaborative ally for software solutions. Through our expert developers, you can efficiently tackle challenges. With expertise in various technologies, we join forces to provide custom-built applications for your business objectives. Be it web development, mobile apps, or enterprise solutions, we ensure high-quality code and timely delivery for these priorities."
+    },
+    {
+      "id": 2,
+      "url": "assets/dynamic/Vector (2).svg",
+      "headingsleft": "Managed Software Development Team",
+      "headingsRight": "Initiative Experts for End-to-End Project Journey",
+      "headingsSubRight": "An Optimized Solution for Your Software Needs",
+      "headingsSubLeft": "Customized Development Strategy for Success",
+      "contentsLeft": "Our managed software development team comprises highly skilled professionals who provide necessary solutions for your software. From ideation to deployment, our experts assist with your requirements and offer strategies for successful development. Focusing on quality, expertise, and efficiency, we ensure seamless operation and successful delivery.",
+      "contentsRight": "Our managed software development team is composed of modern skilled professionals committed to providing tailored solutions for your software with quality and reliability. From ideation to necessary deployment, our experts collaborate closely with your requirements and offer customized development strategies for success. Centered around quality, expertise, and scalability, we ensure the comprehensive efficacy of solutions and successful delivery."
+    },
+    {
+      "id": 3,
+      "url": "assets/dynamic/Vector (2).svg",
+      "headingsleft": "Managed QA Team",
+      "headingsRight": "Secure Operations through Skillful Expertise",
+      "headingsSubRight": "Skillfully Assured Quality Assurance Team",
+      "headingsSubLeft": "Comprehensive Testing Solutions",
+      "contentsLeft": "Our established QA team ensures the security and smooth operation of your software. Through rigorous testing methods and top-notch analysis, we identify potential issues and ensure expertise in the process, creating a bug-free experience for your users. Our extensive QA services encompass functional, performance, security, and compatibility testing.",
+      "contentsRight": "Our established QA team assures the quality and reliability of your software solutions. With a keen eye on compliance and industry standards, we manage the complete quality assurance processes. From test planning to task descriptions and bug tracking to reporting, we prioritize delivering your renowned software solution."
+    },
+    {
+      "id": 4,
+      "url": "assets/dynamic/Vector (2).svg",
+      "headingsleft": "Managed UI/UX Team",
+      "headingsRight": "Creating Engaging User Experiences through Expertise",
+      "headingsSubRight": "User-Centric Design Solutions",
+      "headingsSubLeft": "Visual Appeal and Interaction Design",
+      "contentsLeft": "Our skilled UI/UX team crafts visually appealing and user-friendly interfaces. Guided by user behavior and design decisions, we ensure they provide intuitive and innovative experiences for your audience. From wireframing to prototyping and user testing, we liberate your brand and empower customer engagement.",
+      "contentsRight": "We demonstrate specialized expertise in visual appeal and interaction design. Our UI/UX team ensures your digital products are aesthetically pleasing and feature engaging interfaces. Through wireframing, prototyping, and user testing, we streamline user experience, making navigation and interaction with your application easy for your customers."
+    }
+  ],
+  "service-menu-data": [
+    {
+      "id": 1,
+      "slug": "/products/vonome-product-sme",
+      "image": "assets/Group-1.png",
+      "headings": "Custom Software Development",
+      "subHeading": "<span style='color: #c57ee9;'>Tailored Solutions for Your Unique Needs</span>",
+      "description": "At Vonome, we specialize in providing custom software development services to businesses of all sizes. Our expert team of developers works closely with you to understand your specific requirements and build software solutions that align perfectly with your business objectives. Whether you need a comprehensive enterprise application or a custom plugin for your existing system, we've got you covered. Our commitment to quality and innovation ensures that you receive reliable, scalable, and secure software solutions that empower your business to thrive in today's digital landscape.",
+      "viewMoreBtn": "Viwe More",
+      "AccordianHeading": "What is custom software development service?",
+      "AccordianContents": "Vonome provides custom software development services for business growth. We offer tailored and personalized software solutions that enhance your business processes and facilitate development according to your specific needs.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "slug": "/products/vonome-product-crm",
+      "image": "assets/Group-1.png",
+      "headings": "Business Automation",
+      "subHeading": "<span style='color: #83c5f8;'>Streamlining Efficiency, Enhancing Productivity</span>",
+      "description": "At Vonome, we offer cutting-edge business automation solutions that streamline your processes, reduce manual intervention, and enhance overall productivity. Our team leverages the latest technologies to implement workflow automation, data integration, and process orchestration tailored to your unique business requirements. By automating repetitive tasks and optimizing essential operations, our solutions enable you to focus on strategic initiatives, make data-driven decisions, and achieve greater efficiency in your organization.",
+      "viewMoreBtn": "Viwe More",
+      "AccordianHeading": "What is business automation service?",
+      "AccordianContents": "Vonome provides business automation service to enhance your business processes and facilitate development according to your specific needs.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "slug": "/products/vonome-product-erp",
+      "image": "assets/Group-1.png",
+      "headings": "Website Development",
+      "subHeading": "<span style='color: #e97e97;'>Engaging Designs, Seamless Functionality</span>",
+      "description": "At Vonome, we excel in crafting visually stunning and functionally robust website development that leave a lasting impression on your visitors. Our website development team combines creativity and technical expertise to build custom websites that reflect your brand identity and meet your business objectives. We prioritize responsive design, intuitive navigation, and seamless user experiences to ensure that your website performs flawlessly across all devices. From simple static sites to complex dynamic portals, we have the proficiency to deliver web solutions that captivate and convert your audience.",
+      "viewMoreBtn": "Viwe More",
+      "AccordianHeading": "What is website development service?",
+      "AccordianContents": "Vonome provides website development service to enhance your brand identity and achieve your business objectives.",
+      "expanded": false
+    },
+    {
+      "id": 4,
+      "slug": "/products/vonome-product-easyaccounts",
+      "image": "assets/Group-1.png",
+      "headings": "App Development",
+      "subHeading": "<span style='color: #cc29af;'>Transforming Ideas into Seamless Mobile Solutions</span>",
+      "description": "Vonome offers comprehensive app development services, turning your app ideas into reality. Our proficient team of app developers specializes in creating user-friendly, feature-rich, and high-performance mobile applications for both Android and iOS platforms. We follow a systematic approach to app development, starting from conceptualization and design to development, testing, and deployment. We prioritize user experience and ensure that the apps we build are scalable, secure, and optimized for maximum user engagement. Whether you need a business app, e-commerce app, or a custom mobile solution, we have the expertise to deliver the perfect app for your needs.",
+      "viewMoreBtn": "Viwe More",
+      "AccordianHeading": "What is app development service?",
+      "AccordianContents": "Vonome offers app development services that transform your app idea into a functional reality.",
+      "expanded": false
+    }
+  ],
+  "about-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/about-bg.jpg",
+      "headings": "About Vonome Software Solutions",
+      "description": "Established in 2018, Vonome Software Solutions is a leading provider of innovative software products and services. We specialize in offering a range of solutions, including Vonome SME, Vonome CRM, Cloud ERP, Easy Accounting, HR & Payroll, and more. Our subscription-based model ensures seamless access to our cutting-edge products, empowering businesses of all sizes. With a commitment to delivering global standards, we aim to transform industries and drive digital transformation.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/ab-bg-2.avif",
+      "headings": "Empowering Businesses through Technology",
+      "description": "Welcome to Vonome Software Solutions, the catalyst for digital transformation. Since 2018, we have been empowering businesses of all sizes with our state-of-the-art technology solutions. From Vonome SME and Vonome CRM to Cloud ERP, Easy Accounting, HR & Payroll, and beyond, our comprehensive range of products and services caters to diverse industry verticals. By harnessing the power of technology, we help organizations streamline processes, enhance efficiency, and drive growth. Our customer-centric approach and relentless pursuit of excellence have made us a trusted partner for businesses worldwide. Together, let's embrace the digital revolution and shape a brighter future.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/about-bg-3.avif",
+      "headings": "Driving Innovation for a Digital Future",
+      "description": "At Vonome Software Solutions, we are passionate about revolutionizing the digital landscape. Since our establishment in 2018, we have been committed to delivering cutting-edge software solutions that empower businesses to thrive in the digital era. With a comprehensive suite of products and services, including Vonome SME, Vonome CRM, Cloud ERP, Easy Accounting, HR & Payroll, and more, we enable organizations to streamline operations, enhance productivity, and unlock their full potential. Our dedicated team of experts combines technical expertise with industry insights to create innovative solutions tailored to our clients' needs. Join us on this exciting journey as we pave the way for a digital future.",
+      "expanded": false
+    }
+  ],
+  "footer-section-data": [
+    {
+      "slug": null,
+      "key": "products",
+      "order": 1,
+      "icon": "",
+      "label": "Products",
+      "submenu": [
+        {
+          "slug": "/products/vonome-product-sme",
+          "key": "product-sme",
+          "order": 1,
+          "icon": "assets/sme.svg",
+          "label": "Vonome SME"
+        },
+        {
+          "slug": "/products/vonome-product-erp",
+          "key": "product-erp",
+          "order": 2,
+          "icon": "assets/erp.svg",
+          "label": "Cloud ERP"
+        },
+        {
+          "slug": "/products/vonome-product-hrpayroll",
+          "key": "product-hrpayroll",
+          "order": 3,
+          "icon": "assets/hr.svg",
+          "label": "HR & Payroll"
+        },
+        {
+          "slug": "/products/vonome-product-easyaccounts",
+          "key": "product-easyaccounts",
+          "order": 4,
+          "icon": "assets/accounting.svg",
+          "label": "Easy Accounting"
+        },
+        {
+          "slug": "/products/vonome-product-invoicemanager",
+          "key": "product-invoicemanager",
+          "order": 5,
+          "icon": "assets/e-invoice.svg",
+          "label": "Invoice Manager"
+        },
+        {
+          "slug": "/products/vonome-product-crm",
+          "key": "product-crm",
+          "order": 6,
+          "icon": "assets/crm.svg",
+          "label": "Vonome CRM"
+        },
+        {
+          "slug": "/products/vonome-product-task-bing",
+          "key": "product-task-bing",
+          "order": 7,
+          "icon": "assets/task_bing.svg",
+          "label": "Task Bing"
+        }
+      ]
+    },
+    {
+      "slug": null,
+      "key": "helpful",
+      "order": 2,
+      "icon": "",
+      "label": "Helpful",
+      "description": [],
+      "submenu": [
+        {
+          "slug": "/page/features",
+          "key": "features",
+          "order": 1,
+          "label": "Features"
+        },
+        {
+          "slug": "/page/blog",
+          "key": "blog",
+          "order": 2,
+          "label": "Blog"
+        },
+        {
+          "slug": "/page/faq",
+          "key": "faq",
+          "order": 3,
+          "label": "FAQ"
+        },
+        {
+          "slug": "/page/help-center",
+          "key": "help-center",
+          "order": 4,
+          "label": "Help Center"
+        }
+      ]
+    },
+    {
+      "slug": null,
+      "key": "company",
+      "order": 3,
+      "icon": "",
+      "label": "Company",
+      "description": [],
+      "submenu": [
+        {
+          "slug": "/page/about-us",
+          "key": "about-us",
+          "order": 1,
+          "label": "About Us"
+        },
+        {
+          "slug": "/page/user-agreement",
+          "key": "user-agreement",
+          "order": 2,
+          "label": "User Agreement"
+        },
+        {
+          "slug": "/page/privacy-policy",
+          "key": "privacy-policy",
+          "order": 3,
+          "label": "Privacy Policy"
+        },
+        {
+          "slug": "/page/community-guideline",
+          "key": "community-guidline",
+          "order": 4,
+          "label": "Community Guideline"
+        }
+      ]
+    },
+    {
+      "slug": null,
+      "key": "contact",
+      "order": 4,
+      "icon": "",
+      "label": "Contact",
+      "description": [],
+      "submenu": [
+        {
+          "slug": "https://www.google.com/maps/dir/23.8452736,90.3806976/google+map+vonome/@23.8386338,90.3684907,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3755c7eaec875b91:0xa234c51973da643e!2m2",
+          "key": "view-on-map",
+          "order": 1,
+          "icon": "assets/location-dot-solid.svg",
+          "label": "View on Google Map"
+        },
+        {
+          "slug": "/phone",
+          "key": "phone",
+          "order": 2,
+          "icon": "assets/phone.svg",
+          "label": "09606007000"
+        },
+        {
+          "slug": "/mail",
+          "key": "mail",
+          "order": 3,
+          "icon": "assets/envelope-regular.svg",
+          "label": "info@vonome.com"
+        }
+      ]
+    }
+  ],
+  "crm-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "Flexible and intuitive",
+      "subHeading": "<span style='color: rgba(197, 122, 69)'>Customizable to fit your sales cycle</span>",
+      "description": "Easily tailor your CRM software to work for you, without any development help. Edit deal stages, add as many columns as you'd like, manage multiple pipelines at once, and more.",
+      "AccordianHeading": "email privacy settings",
+      "AccordianContents": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Automations",
+      "subHeading": "<span style='color: #83c5f8;'>Save valuable time by automation</span>",
+      "description": "Close more deals by automating repetitive work. Automatically assign leads to reps, set reminders for upcoming activities, get notified when a lead opens an email, and more.",
+      "AccordianHeading": "emails at scale",
+      "AccordianContents": "Reach large audiences at scale with personalized messages using the mass email feature. By selecting recipients, adding personalizations based on columns, and using templates, sales reps can send hundreds of emails in a fraction of the time.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Emails & Activities",
+      "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Centralize client communication</span>",
+      "description": "Communicate efficiently with your contacts by integrating your email. Automatically log sent emails, keep track of interactions, and use personalized email templates to save you time.",
+      "AccordianHeading": "ranked in a leaderboard",
+      "AccordianContents": "With the new Leaderboard widget, you can see your sales reps ranked based on performance. Know who’s excelling and who needs extra support based on metrics like win rate, deal value, conversion rate, and more. Plus, see the average length of each phase.",
+      "expanded": false
+    }
+  ],
+  "acc-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "User Access Control",
+      "subHeading": "<span style='color: rgba(197, 122, 69)'>Controlled Access to Data</span>",
+      "description": "Assign specific access levels and permissions to users, ensuring data security and restricting unauthorized access to sensitive information.",
+      "AccordianHeading": "Reporting and Analytics",
+      "AccordianContents": "Generate detailed reports and analytics on financial performance, customer behavior, and account activity, facilitating informed decision-making.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Account Monitoring",
+      "subHeading": "<span style='color: #83c5f8;'>Real-time Account Tracking</span>",
+      "description": "Track account balances, transactions, and financial activities in real-time, providing an overview of account status and enabling proactive management.",
+      "AccordianHeading": "Account Integration",
+      "AccordianContents": "Integrate with other systems such as CRM or ERP to synchronize customer data, streamline operations, and ensure data consistency across platforms.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Payment Processing",
+      "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Streamline Financial Transactions</span>",
+      "description": "Simplify payment processing by integrating with payment gateways, automating invoice generation, and enabling secure online payments for customers.",
+      "AccordianHeading": "Audit Trail",
+      "AccordianContents": "Maintain a complete audit trail of account activities, including user actions, changes to account settings, and transaction history for compliance and accountability purposes.",
+      "expanded": false
+    }
+  ],
+  "inv-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "Automated Invoicing",
+      "subHeading": "<span style='color: #FF6D60'>Streamlined Invoicing Process</span>",
+      "description": "Automate invoice creation, delivery, and tracking, reducing manual effort, minimizing errors, and improving the overall efficiency of the invoicing process.",
+      "AccordianHeading": "Faster Payment Processing",
+      "AccordianContents": "Expedite payment collection with electronic invoicing, enabling faster processing, reducing payment delays, and improving cash flow for your business.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Cost and Time Savings",
+      "subHeading": "<span style='color: #F7D060;'>Reduction in Manual Effort</span>",
+      "description": "Save costs and time associated with printing, postage, and manual data entry by adopting e-invoicing, allowing for efficient and cost-effective invoice management.",
+      "AccordianHeading": "Error-free and Compliant Invoices",
+      "AccordianContents": "Ensure accurate invoice information and compliance with tax regulations, reducing the risk of errors, disputes, and penalties associated with manual invoicing.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Enhanced Customer Experience",
+      "subHeading": "<span style='color:#187498;'>Convenient and Professional Invoicing</span>",
+      "description": "Provide your customers with a seamless invoicing experience, offering them electronic invoices that are easily accessible, trackable, and professional in appearance.",
+      "AccordianHeading": "Seamless Integration",
+      "AccordianContents": " Seamlessly integrate e-invoicing with your existing accounting or ERP systems, enabling smooth data exchange, reducing duplication, and improving data accuracy.",
+      "expanded": false
+    }
+  ],
+  "erp-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "Centralized Data Management",
+      "subHeading": "<span style='color: rgba(197, 122, 69)'>Centralized Control of Information</span>",
+      "description": "Streamline your business operations with an ERP system that centralizes data management, ensuring accurate and up-to-date information accessible across departments for informed decision-making.",
+      "AccordianHeading": "Process Automation",
+      "AccordianContents": "Improve operational efficiency by automating manual tasks, such as order processing, inventory management, and financial reporting, reducing errors and saving time for employees.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Financial Management",
+      "subHeading": "<span style='color: #B31312;'>Integrated Financial Operations</span>",
+      "description": "Streamline financial processes, including accounts payable, accounts receivable, general ledger, and financial reporting, enabling accurate financial analysis and ensuring compliance.",
+      "AccordianHeading": "Inventory Optimization",
+      "AccordianContents": "Optimize inventory levels, reduce stockouts and overstock situations, and gain real-time visibility into inventory across multiple locations for effective supply chain management.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Customer Relationship Management (CRM)",
+      "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Enhanced Customer Management</span>",
+      "description": "Improve customer satisfaction and loyalty with integrated CRM functionalities, allowing you to track customer interactions, manage leads, and provide personalized services.",
+      "AccordianHeading": "Real-time Analytics",
+      "AccordianContents": "Make informed business decisions with real-time analytics, customizable dashboards, and comprehensive reporting, providing valuable insights into performance, trends, and opportunities.",
+      "expanded": false
+    }
+  ],
+  "hr-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "Payroll Automation",
+      "subHeading": "<span style='color: rgba(197, 122, 69)'>Efficient Salary Management System</span>",
+      "description": "Streamline payroll calculations, deductions, and tax filings with automated software, ensuring accurate and timely payments for employees.",
+      "AccordianHeading": "Integration Capabilities",
+      "AccordianContents": "Integrate HR and Payroll systems with accounting, employee management, and time-tracking tools for smooth data exchange, eliminating duplication of efforts.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Employee Self-Service",
+      "subHeading": "<span style='color: rgba(186, 197, 69);'>Manage Personal Information</span>",
+      "description": "Provide employees with secure portals to access pay stubs, update personal details, and view benefits information, reducing administrative workload.",
+      "AccordianHeading": "Data Security",
+      "AccordianContents": "Implement robust security measures, including encryption and access controls, to safeguard sensitive employee information and prevent data breaches.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Automated Time Tracking",
+      "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Efficient Attendance Management</span>",
+      "description": "Capture accurate employee work hours, calculate overtime, and integrate seamlessly with payroll systems, eliminating manual tracking and reducing errors.",
+      "AccordianHeading": "Compliance Management",
+      "AccordianContents": "Stay up to date with changing regulations, generate accurate reports for taxes and benefits, and reduce the risk of penalties and audits.",
+      "expanded": false
+    }
+  ],
+  "sme-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/Group-1.png",
+      "headings": "Accounting Management",
+      "subHeading": "<span class='color-1'>Account & Finance Report Tracking</span>",
+      "description": "SME software typically includes modules for managing financial transactions, invoicing, billing, and bookkeeping. It may also have features for generating financial reports, tracking expenses, and managing budgets.",
+      "AccordianHeading": "Digital Transformation",
+      "AccordianContents": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/Group-1.png",
+      "headings": "Inventory Management",
+      "subHeading": "<span class='color-2'>Track Your Sales Report Continuesly</span>",
+      "description": "SME software often includes inventory management capabilities, allowing businesses to track and manage their stock levels, automate reordering processes, and generate reports on inventory status.",
+      "AccordianHeading": "Customer Relationship Management",
+      "AccordianContents": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/Group-1.png",
+      "headings": "Sales and Marketing",
+      "subHeading": "<span class='color-3' >Account & Finance Report Tracking</span>",
+      "description": "SME software typically includes modules for managing financial transactions, invoicing, billing, and bookkeeping. It may also have features for generating financial reports, tracking expenses, and managing budgets.",
+      "AccordianHeading": "Financial Management and Funding",
+      "AccordianContents": "Effective financial management is essential for the long-term success of SMEs. This section will cover topics such as budgeting, cash flow management, financial forecasting, and accessing funding options specifically tailored for SMEs. It can provide guidance on financial best practices, working with investors, and utilizing government programs and grants.",
+      "expanded": false
+    }
+  ],
+  "tb-product-menu-data": [
+    {
+      "id": 1,
+      "image": "assets/crm-content.png",
+      "headings": "Efficient Task Organization",
+      "subHeading": "<span style='color: #0079FF'>Streamlined Task Tracking</span>",
+      "description": "Organize tasks effectively, assign priorities, set due dates, and track progress to enhance productivity and ensure timely completion of projects.",
+      "AccordianHeading": "Collaborative Workspaces",
+      "AccordianContents": "Create shared workspaces for teams, enabling seamless collaboration, communication, and task coordination, fostering teamwork and boosting productivity.",
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "image": "assets/crm-content2.png",
+      "headings": "Reminders and Notifications",
+      "subHeading": "<span style='color: #00DFA2;'>Timely Task Reminders</span>",
+      "description": "Receive reminders and notifications for upcoming tasks, ensuring that important deadlines are not missed and tasks are completed promptly. Stay on Top of Deadlines.",
+      "AccordianHeading": "Assign and Delegate Tasks",
+      "AccordianContents": "Assign tasks to team members, delegate responsibilities, and track progress, promoting accountability and ensuring tasks are appropriately distributed.",
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "image": "assets/crm-content1.png",
+      "headings": "Task Tracking and Analytics",
+      "subHeading": "<span style='color:#FF0060;'>Data-driven Performance Evaluation</span>",
+      "description": "Monitor task progress, track completion rates, and gain insights through analytics, enabling data-driven evaluation of performance and identifying areas for improvement.",
+      "AccordianHeading": "Integration and Automation",
+      "AccordianContents": "Integrate Task Bing with other tools and systems, automate repetitive tasks, and streamline workflows, enhancing efficiency and reducing manual effort.",
+      "expanded": false
+    }
+  ],
+  "feature-menu-data": [
+    {
+      "id": 1,
+      "tabIcon": "fa-solid fa-users-viewfinder",
+      "tabHeadings": "Overview",
+      "contentHeading": "Visionary Insights for Success",
+      "contentSubHeading": "Get a Bird's Eye View",
+      "contentDescription": "Welcome to our software platform, where we empower businesses with cutting-edge technology to streamline their operations and drive growth. With our Overview feature, you'll gain a comprehensive and insightful bird's eye view of your entire business ecosystem. Visualize key performance indicators, monitor progress, and make data-driven decisions with ease. Our intuitive interface simplifies complex data, allowing you to focus on what matters most - achieving success.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 2,
+      "tabIcon": "fa-solid fa-eye",
+      "tabHeadings": "View",
+      "contentHeading": " Unleash Business Clarity Through Visuals",
+      "contentSubHeading": "Unparalleled Data Visualization",
+      "contentDescription": "With our View feature, experience unparalleled data visualization that transforms raw information into meaningful insights. Gain a clear perspective on your business processes through interactive charts, graphs, and dashboards. Effortlessly navigate through your data and identify trends, anomalies, and opportunities at a glance. Our advanced visualization tools empower you to make informed decisions and stay ahead of the competition.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 3,
+      "tabIcon": "fa-brands fa-intercom",
+      "tabHeadings": "Customization",
+      "contentHeading": "Tailor-Made Solutions for Your Enterprise",
+      "contentSubHeading": "Tailor-Made for Your Needs",
+      "contentDescription": "We understand that every business is unique, and that's why our software comes with extensive customization capabilities. Tailor-make your workflows, settings, and user interfaces to match your specific requirements. Whether it's automating repetitive tasks, configuring personalized reports, or integrating third-party tools, our platform adapts to fit seamlessly into your business processes, enhancing productivity and efficiency.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 4,
+      "tabIcon": "fa-solid fa-people-group",
+      "tabHeadings": "Collaboration",
+      "contentHeading": "Amplify Team Synergy with Seamless Collaboration",
+      "contentSubHeading": "Teamwork at Its Best",
+      "contentDescription": "Foster a culture of seamless collaboration within your organization with our Collaboration feature. Share information, assign tasks, and communicate effortlessly with team members. Whether your team is in the same office or spread across the globe, our platform ensures real-time connectivity, promoting efficient project management and cohesive teamwork.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 5,
+      "tabIcon": "fa-solid fa-file",
+      "tabHeadings": "Docs",
+      "contentHeading": "Streamlined Document Handling for Enhanced Efficiency",
+      "contentSubHeading": "Centralized Document Management",
+      "contentDescription": "Say goodbye to scattered files and confusion over versions with our Docs feature. Centralize all your important documents, manuals, and files in one secure location. Collaborate on documents in real-time, track changes, and ensure everyone is on the same page. Our intuitive document management system simplifies your workflow and boosts productivity, making document handling a breeze.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 6,
+      "tabIcon": "fa-solid fa-file-invoice",
+      "tabHeadings": "Reporting",
+      "contentHeading": "Data-Driven Insights for Informed Decisions",
+      "contentSubHeading": "Comprehensive Data Reports",
+      "contentDescription": "Make data-driven decisions effortlessly with our Reporting feature. Access a wide array of comprehensive data reports, visualizations, and analytics tools. Customize reports to focus on the metrics that matter most to your business. Our advanced reporting capabilities empower you to track progress, identify growth opportunities, and strategize effectively for the future.",
+      "contentImage": "assets/crm-content2.png"
+    },
+    {
+      "id": 7,
+      "tabIcon": "fa-solid fa-clock",
+      "tabHeadings": "Time",
+      "contentHeading": "Optimize Efficiency with Smart Time Management",
+      "contentSubHeading": "Time Tracking and Management",
+      "contentDescription": "Maximize productivity and efficiency with our Time feature. Track working hours, manage tasks, and allocate resources effectively. Our time management tools help you optimize project timelines, ensure timely deliveries, and maintain a well-organized workflow. Stay in control of your time and achieve peak performance.",
+      "contentImage": "assets/crm-content2.png"
+    }
+  ],
+  "blog-cart-data": [
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Save Your Interest-Driven Posts in Our Blog Cart",
+      "blogCartSubHeadings": "Save your favorite blog posts to your blog cart and read them later.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Rashedul Islam",
+      "blogCartTime": " Posted on",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper"
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "The Power of Machine Learning in Today's World",
+      "blogCartSubHeadings": "Learn about the impact and applications of machine learning in various fields.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Jane Doe",
+      "blogCartTime": "Posted on July 22, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Machine learning has revolutionized our real-world. From recommendation systems in e-commerce to predicting diseases in healthcare, ML is making an extensive impact across various domains. In this blog post, we'll dive into the power of machine learning and its wide applications. We'll see how algorithms learn from data and assist in complex tasks for computers, working through information to make data-driven decisions. We've embarked on this journey into the world of machine learning and how it's shaping the future. "
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "The Impact of Cryptocurrency in the Economic World",
+      "blogCartSubHeadings": "An analysis of how cryptocurrency first emerged in the realm of economics.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "John Smith",
+      "blogCartTime": "Posted on July 21, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Cryptocurrency has emerged as a disruptive force in the economic world, challenging traditional banking systems and providing new possibilities for global transactions. In this blog post, we'll explore the impact of cryptocurrency on economics. We'll discuss the rise of decentralized finance (DeFi) and the benefits and risks associated with digital currencies. Join us as we delve into the world of cryptocurrency and uncover its significance for the future economic landscape."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "The Future of Artificial Intelligence: Opportunities and Challenges",
+      "blogCartSubHeadings": "Testing ethical considerations amidst AI's potential and advancements.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Emily Johnson",
+      "blogCartTime": "Posted on July 20, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Artificial Intelligence (AI) is rapidly shaping various industries and daily life trends. With AI's progress, there's greater potential for innovation and empowerment, but ethical concerns need addressing. In this blog post, we'll discuss AI's potential and advancements across sectors like healthcare, financial assessment, and transportation. We'll explore the challenges AI poses alongside its growth in empathy, bias, and transparency. Join us as we examine how AI can be harnessed with sensitivity to create a responsible future for synthetic intelligence."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Embracing the Rise of Remote Work: Finding Joy in the Virtual Office",
+      "blogCartSubHeadings": "Exploring the benefits and challenges of remote work and its impact on work-life balance.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Sarah Johnson",
+      "blogCartTime": "Posted on July 19, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Remote work has become a defining trend in modern workforce dynamics, providing employees with schedules and creating work-life balance opportunities. In this blog post, we'll discuss the rise of remote work and its benefits for both employees and employers. We'll explore implementing virtual assistance in tasks, maintaining productivity, and fostering collective solutions to existing challenges. Join us as we step into the realm of remote work and how this change can potentially reshape organizational environments for successful virtual offices."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "The Great Universe of Transhuman Space",
+      "blogCartSubHeadings": "Exploring the Mysteries of the Universe and Advancements in Space Science",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Michael Brown",
+      "blogCartTime": "Posted on July 18, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "We will journey through the darkness of interstellar voids and even delve into the realm of familiar microgravity background radiation. Let's discuss the latest research in space science and groundbreaking investigations, such as gravitational wave detection and attempts to grasp the nature of dark matter. Join us in unraveling the wonders beyond our planetary confines and becoming awestruck with the extraordinary cosmos."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Culinary Art: Exploring the Global Quest for Flavor",
+      "blogCartSubHeadings": "Unveiling Culinary Styles Across the World and the Cultural Significance of Food",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Sophia Martinez",
+      "blogCartTime": "Posted on July 17, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Culinary art is a beautiful expression of culture and heritage, bringing people together through the joy of food. In this blog post, we embark on a culinary journey, exploring the religious aspects and applications of food from different parts of the world. From the aromatic spices of Indian cuisine to the delicate flavors of Japanese sushi, we highlight a culinary artisan's special role and its significance in celebrations and formal events. Join us in savoring the pleasures of the world's flavors and enriching our lives through the artistry of cooking."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Marvels of Aquatic Life: Diving into the Enchanting Realm of Marine Species",
+      "blogCartSubHeadings": "Exploring the Diversity of Marine Species and the Fascinating Underwater World",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "David Johnson",
+      "blogCartTime": "Posted on July 16, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The underwater realm is a captivating area of immense beauty and diversity, where marine ecosystems thrive. In this blog post, we embark on a journey of underwater exploration, delving into the vibrant marine species that inhabit our oceans and their intricate relationships. From the graceful dance of dolphins to the secretive nature of octopuses, we unveil hidden aspects of these intriguing species. We discuss the significance of marine conservation, the challenges of hydrological changes and pollution, and the brave efforts to navigate the waters of aquatic life in the age of pollution. Join us in exploring the mesmerizing world beneath the blue ocean."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "The Artistry of Storytelling: Blooming of Captivating Listener Roses in Generations",
+      "blogCartSubHeadings": "The Enchanter's Journey of Storytelling and Its Influence on Culture and Tradition",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Emily Adams",
+      "blogCartTime": "Posted on July 15, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The art of storytelling is an ancient craft that transcends time, captivating listeners from one generation to another. In this blog post, we delve into the enchanting journey of storytelling, exploring how the power of words and narratives has shaped different cultures and traditions. We discover how myths and folktales have sustained knowledge and ethical aspirations across ages. From epic narratives of heroes to captivating folktales from various regions, the power of stories encourages connection, creative expression, and the weaving of bridges among people. We discuss the traditional storytelling, its transition into books, films, and digital narratives, and the impact they hold today. Join us in celebrating this artistry of storytelling and the enduring significance it holds in shaping our authentic selves."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Rhythms of Nature: The Poetry Written by Earth's Melodies",
+      "blogCartSubHeadings": "Harmonizing with Natural Sounds and the Connection Between Music and Environment",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Oliver Clark",
+      "blogCartTime": "Posted on July 14, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The world around us is a symphony of natural sounds, from the rustling leaves to the gentle babbling of a brook. In this blog post, we explore the harmonious relationship between music and the environment, delving into how the rhythms of nature have influenced human compositions. We discover how ancient cultures used the melodies of the earth in their musical expressions and how modern musicians are drawing inspiration from the world's natural melodies. From the soothing sounds of rainfall to the lively chirping of birds, we reflect on the therapeutic qualities of these sounds and their role in modern mindfulness practices. Join us in immersing ourselves in the poetry written by the Earth's enchanting melodies."
+    },
+    {
+      "key": "recent",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "Harmony of Art and Science: Exploring Two Prismatic Dimensions",
+      "blogCartSubHeadings": "Unveiling the Intricate Connection Between Art and Science in Human Creativity",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Michael Brown",
+      "blogCartTime": "Posted on July 13, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The interplay of art and science is a fascinating subject, revealing deep connections and internal exploration within this grand domain. In this blog post, we will explore the harmony of art and science in human creativity. We will observe how art and science converge and what they bring together. We will see how the emergence of scientific visualization has complemented the marvels of artistic discoveries and how the synergy between mathematics and architecture brings forth remarkable synthesis in art. Join us in this journey of discovering the profound impact of the interplay between art and science on human evolution and imagination."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular Save Your Interest-Driven Posts in Our Blog Cart",
+      "blogCartSubHeadings": "Save your favorite blog posts to your blog cart and read them later.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Rashedul Islam",
+      "blogCartTime": " Posted on",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper"
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular The Power of Machine Learning in Today's World",
+      "blogCartSubHeadings": "Learn about the impact and applications of machine learning in various fields.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Jane Doe",
+      "blogCartTime": "Posted on July 22, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Machine learning has revolutionized our real-world. From recommendation systems in e-commerce to predicting diseases in healthcare, ML is making an extensive impact across various domains. In this blog post, we'll dive into the power of machine learning and its wide applications. We'll see how algorithms learn from data and assist in complex tasks for computers, working through information to make data-driven decisions. We've embarked on this journey into the world of machine learning and how it's shaping the future. "
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular The Impact of Cryptocurrency in the Economic World",
+      "blogCartSubHeadings": "An analysis of how cryptocurrency first emerged in the realm of economics.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "John Smith",
+      "blogCartTime": "Posted on July 21, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Cryptocurrency has emerged as a disruptive force in the economic world, challenging traditional banking systems and providing new possibilities for global transactions. In this blog post, we'll explore the impact of cryptocurrency on economics. We'll discuss the rise of decentralized finance (DeFi) and the benefits and risks associated with digital currencies. Join us as we delve into the world of cryptocurrency and uncover its significance for the future economic landscape."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular The Future of Artificial Intelligence: Opportunities and Challenges",
+      "blogCartSubHeadings": "Testing ethical considerations amidst AI's potential and advancements.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Emily Johnson",
+      "blogCartTime": "Posted on July 20, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Artificial Intelligence (AI) is rapidly shaping various industries and daily life trends. With AI's progress, there's greater potential for innovation and empowerment, but ethical concerns need addressing. In this blog post, we'll discuss AI's potential and advancements across sectors like healthcare, financial assessment, and transportation. We'll explore the challenges AI poses alongside its growth in empathy, bias, and transparency. Join us as we examine how AI can be harnessed with sensitivity to create a responsible future for synthetic intelligence."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular Embracing the Rise of Remote Work: Finding Joy in the Virtual Office",
+      "blogCartSubHeadings": "Exploring the benefits and challenges of remote work and its impact on work-life balance.",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Sarah Johnson",
+      "blogCartTime": "Posted on July 19, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Remote work has become a defining trend in modern workforce dynamics, providing employees with schedules and creating work-life balance opportunities. In this blog post, we'll discuss the rise of remote work and its benefits for both employees and employers. We'll explore implementing virtual assistance in tasks, maintaining productivity, and fostering collective solutions to existing challenges. Join us as we step into the realm of remote work and how this change can potentially reshape organizational environments for successful virtual offices."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular The Great Universe of Transhuman Space",
+      "blogCartSubHeadings": "Exploring the Mysteries of the Universe and Advancements in Space Science",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Michael Brown",
+      "blogCartTime": "Posted on July 18, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "We will journey through the darkness of interstellar voids and even delve into the realm of familiar microgravity background radiation. Let's discuss the latest research in space science and groundbreaking investigations, such as gravitational wave detection and attempts to grasp the nature of dark matter. Join us in unraveling the wonders beyond our planetary confines and becoming awestruck with the extraordinary cosmos."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular Culinary Art: Exploring the Global Quest for Flavor",
+      "blogCartSubHeadings": "Unveiling Culinary Styles Across the World and the Cultural Significance of Food",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Sophia Martinez",
+      "blogCartTime": "Posted on July 17, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "Culinary art is a beautiful expression of culture and heritage, bringing people together through the joy of food. In this blog post, we embark on a culinary journey, exploring the religious aspects and applications of food from different parts of the world. From the aromatic spices of Indian cuisine to the delicate flavors of Japanese sushi, we highlight a culinary artisan's special role and its significance in celebrations and formal events. Join us in savoring the pleasures of the world's flavors and enriching our lives through the artistry of cooking."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular Marvels of Aquatic Life: Diving into the Enchanting Realm of Marine Species",
+      "blogCartSubHeadings": "Exploring the Diversity of Marine Species and the Fascinating Underwater World",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "David Johnson",
+      "blogCartTime": "Posted on July 16, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The underwater realm is a captivating area of immense beauty and diversity, where marine ecosystems thrive. In this blog post, we embark on a journey of underwater exploration, delving into the vibrant marine species that inhabit our oceans and their intricate relationships. From the graceful dance of dolphins to the secretive nature of octopuses, we unveil hidden aspects of these intriguing species. We discuss the significance of marine conservation, the challenges of hydrological changes and pollution, and the brave efforts to navigate the waters of aquatic life in the age of pollution. Join us in exploring the mesmerizing world beneath the blue ocean."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular The Artistry of Storytelling: Blooming of Captivating Listener Roses in Generations",
+      "blogCartSubHeadings": "The Enchanter's Journey of Storytelling and Its Influence on Culture and Tradition",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Emily Adams",
+      "blogCartTime": "Posted on July 15, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The art of storytelling is an ancient craft that transcends time, captivating listeners from one generation to another. In this blog post, we delve into the enchanting journey of storytelling, exploring how the power of words and narratives has shaped different cultures and traditions. We discover how myths and folktales have sustained knowledge and ethical aspirations across ages. From epic narratives of heroes to captivating folktales from various regions, the power of stories encourages connection, creative expression, and the weaving of bridges among people. We discuss the traditional storytelling, its transition into books, films, and digital narratives, and the impact they hold today. Join us in celebrating this artistry of storytelling and the enduring significance it holds in shaping our authentic selves."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": "popular Rhythms of Nature: The Poetry Written by Earth's Melodies",
+      "blogCartSubHeadings": "Harmonizing with Natural Sounds and the Connection Between Music and Environment",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Oliver Clark",
+      "blogCartTime": "Posted on July 14, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The world around us is a symphony of natural sounds, from the rustling leaves to the gentle babbling of a brook. In this blog post, we explore the harmonious relationship between music and the environment, delving into how the rhythms of nature have influenced human compositions. We discover how ancient cultures used the melodies of the earth in their musical expressions and how modern musicians are drawing inspiration from the world's natural melodies. From the soothing sounds of rainfall to the lively chirping of birds, we reflect on the therapeutic qualities of these sounds and their role in modern mindfulness practices. Join us in immersing ourselves in the poetry written by the Earth's enchanting melodies."
+    },
+    {
+      "key": "popular",
+      "blogCartTopImage": "assets/13295064_5172658.jpg",
+      "blogCartHeadings": " popular Harmony of Art and Science: Exploring Two Prismatic Dimensions",
+      "blogCartSubHeadings": "Unveiling the Intricate Connection Between Art and Science in Human Creativity",
+      "blogCartImage": "/assets/man.jpg",
+      "blogCartName": "Michael Brown",
+      "blogCartTime": "Posted on July 13, 2023",
+      "blogCartTimeIcon": "fa-solid fa-clock",
+      "blogArticleIcon": "fa-solid fa-newspaper",
+      "content": "The interplay of art and science is a fascinating subject, revealing deep connections and internal exploration within this grand domain. In this blog post, we will explore the harmony of art and science in human creativity. We will observe how art and science converge and what they bring together. We will see how the emergence of scientific visualization has complemented the marvels of artistic discoveries and how the synergy between mathematics and architecture brings forth remarkable synthesis in art. Join us in this journey of discovering the profound impact of the interplay between art and science on human evolution and imagination."
+    }
+  ],
+  "product-wise-faq": [
+    {
+      "id": 1,
+      "imageUrl": "assets/sme.svg",
+      "titles": "SME",
+      "headings": "Vonome SME Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Digital Transformation",
+          "accordianContent": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies."
+        },
+        {
+          "accordianHeading": "Customer Relationship Management",
+          "accordianContent": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies."
+        },
+        {
+          "accordianHeading": "Financial Management and Funding",
+          "accordianContent": "Effective financial management is essential for the long-term success of SMEs. This section will cover topics such as budgeting, cash flow management, financial forecasting, and accessing funding options specifically tailored for SMEs. It can provide guidance on financial best practices, working with investors, and utilizing government programs and grants"
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 2,
+      "imageUrl": "assets/erp.svg",
+      "titles": "ERP",
+      "headings": "Vonome ERP Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Process Automation",
+          "accordianContent": "Improve operational efficiency by automating manual tasks, such as order processing, inventory management, and financial reporting, reducing errors and saving time for employees."
+        },
+        {
+          "accordianHeading": "Inventory Optimization",
+          "accordianContent": "Optimize inventory levels, reduce stockouts and overstock situations, and gain real-time visibility into inventory across multiple locations for effective supply chain management."
+        },
+        {
+          "accordianHeading": "Real-time Analytics",
+          "accordianContent": "Make informed business decisions with real-time analytics, customizable dashboards, and comprehensive reporting, providing valuable insights into performance, trends, and opportunities."
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 3,
+      "imageUrl": "assets/crm.svg",
+      "titles": "CRM",
+      "headings": "Vonome CRM Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Email Privacy Settings",
+          "accordianContent": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure."
+        },
+        {
+          "accordianHeading": "Emails at Scale",
+          "accordianContent": "Reach large audiences at scale with personalized messages using the mass email feature. By selecting recipients, adding personalizations based on columns, and using templates, sales reps can send hundreds of emails in a fraction of the time."
+        },
+        {
+          "accordianHeading": "Ranked in a Leaderboard",
+          "accordianContent": "With the new Leaderboard widget, you can see your sales reps ranked based on performance. Know who’s excelling and who needs extra support based on metrics like win rate, deal value, conversion rate, and more. Plus, see the average length of each phase."
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 4,
+      "imageUrl": "assets/hr.svg",
+      "titles": "HR",
+      "headings": "Vonome HR Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Integration Capabilities",
+          "accordianContent": "Integrate HR and Payroll systems with accounting, employee management, and time-tracking tools for smooth data exchange, eliminating duplication of efforts."
+        },
+        {
+          "accordianHeading": "Data Security",
+          "accordianContent": "Implement robust security measures, including encryption and access controls, to safeguard sensitive employee information and prevent data breaches."
+        },
+        {
+          "accordianHeading": "Compliance Management",
+          "accordianContent": "Stay up to date with changing regulations, generate accurate reports for taxes and benefits, and reduce the risk of penalties and audits."
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 5,
+      "imageUrl": "assets/e-invoice.svg",
+      "titles": "Invoice",
+      "headings": "Vonome Invoice Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Email Privacy Settings",
+          "accordianContent": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure."
+        },
+        {
+          "accordianHeading": "Error-free and Compliant Invoices",
+          "accordianContent": "Ensure accurate invoice information and compliance with tax regulations, reducing the risk of errors, disputes, and penalties associated with manual invoicing."
+        },
+        {
+          "accordianHeading": "Seamless Integration",
+          "accordianContent": "Seamlessly integrate e-invoicing with your existing accounting or ERP systems, enabling smooth data exchange, reducing duplication, and improving data accuracy."
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 6,
+      "imageUrl": "assets/accounting.svg",
+      "titles": "Accounting",
+      "headings": "Vonome Accounting Payroll",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Reporting and Analytics",
+          "accordianContent": "Generate detailed reports and analytics on financial performance, customer behavior, and account activity, facilitating informed decision-making."
+        },
+        {
+          "accordianHeading": "Account Integration",
+          "accordianContent": "Integrate with other systems such as CRM or ERP to synchronize customer data, streamline operations, and ensure data consistency across platforms."
+        },
+        {
+          "accordianHeading": "Audit Trail",
+          "accordianContent": "Maintain a complete audit trail of account activities, including user actions, changes to account settings, and transaction history for compliance and accountability purposes."
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": 7,
+      "imageUrl": "assets/task_bing.svg",
+      "titles": "Task Bing",
+      "headings": "Vonome Task Bing",
+      "subHeadings": "For sales professionals and customer-facing teams",
+      "accordian": [
+        {
+          "accordianHeading": "Collaborative Workspaces",
+          "accordianContent": "Create shared workspaces for teams, enabling seamless collaboration, communication, and task coordination, fostering teamwork and boosting productivity."
+        },
+        {
+          "accordianHeading": "Assign and Delegate Tasks",
+          "accordianContent": "Assign tasks to team members, delegate responsibilities, and track progress, promoting accountability and ensuring tasks are appropriately distributed."
+        },
+        {
+          "accordianHeading": "Integration and Automation",
+          "accordianContent": "Integrate Task Bing with other tools and systems, automate repetitive tasks, and streamline workflows, enhancing efficiency and reducing manual effort."
+        }
+      ],
+      "expanded": false
+    }
+  ],
+  "social-data": [
+    {
+      "iconType": "fa-brands fa-facebook",
+      "link": "https://www.facebook.com/"
+    },
+    {
+      "iconType": "fa-brands fa-twitter",
+      "link": "https://twitter.com/"
+    },
+    {
+      "iconType": "fa-brands fa-linkedin",
+      "link": "https://www.linkedin.com/"
+    },
+    {
+      "iconType": "fa-brands fa-google",
+      "link": "https://www.google.com/"
+    }
+  ],
+  "teams-info-data": [
+    {
+      "id": 1,
+      "ImageUrl": "assets/rashedul_islam.jpg",
+      "MemberName": "Rashedul Islam",
+      "MemberRole": "Co-Founder & CEO",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "ImageUrl": "assets/nafia_islam.jfif",
+      "MemberName": "Nafia Masrura Iuha",
+      "MemberRole": "VP, Business Development",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "ImageUrl": "assets/sunil.jpg",
+      "MemberName": "Sunil Chandra Karmakar",
+      "MemberRole": "Software Engineer",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "ImageUrl": "assets/rashedul_islam.jpg",
+      "MemberName": "Shahinur Islam",
+      "MemberRole": "Software Engineer",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "ImageUrl": "assets/rashedul_islam.jpg",
+      "MemberName": "Jashim Uddin",
+      "MemberRole": "Software Engineer",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "ImageUrl": "assets/rashedul_islam.jpg",
+      "MemberName": "Siyam Ahmed",
+      "MemberRole": "Project Manager",
+      "MemberSocialLink": [
+        {
+          "iconType": "fa-brands fa-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "iconType": "fa-brands fa-twitter",
+          "link": "https://twitter.com/"
+        },
+        {
+          "iconType": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/"
+        },
+        {
+          "iconType": "fa-brands fa-google",
+          "link": "https://www.google.com/"
+        }
+      ]
+    }
+  ],
+  "related-product-data": [
+    {
+      "id": 1,
+      "slug": "/products/vonome-product-crm",
+      "ImageUrl": "assets/crm.svg",
+      "RelatedProductName": "Vonome CRM System",
+      "RelatedProductHeadings": "For professionals and teams managing tasks & workflows",
+      "RelatedProductContents": "Manage tasks, projects, and processes to fuel collaboration and efficiency at scale.",
+      "RelatedProductBtn": "Get Started"
+    },
+    {
+      "id": 2,
+      "slug": "/products/vonome-product-hrpayroll",
+      "ImageUrl": "assets/hr.svg",
+      "RelatedProductName": "Vonome HR & PayRoll System",
+      "RelatedProductHeadings": "For sales professionals and customer-facing teams & members",
+      "RelatedProductContents": "Track and manage all aspects of your sales cycle, customer data, and more in one place.",
+      "RelatedProductBtn": "Get Started"
+    },
+    {
+      "id": 3,
+      "slug": "/products/vonome-product-easyaccounts",
+      "ImageUrl": "assets/accounting.svg",
+      "RelatedProductName": "Vonome ACM System",
+      "RelatedProductHeadings": "For product and development professionals and teams",
+      "RelatedProductContents": "Build agile workflows to drive impact across your product, design, and R&D teams & production.",
+      "RelatedProductBtn": "Get Started"
+    },
+    {
+      "id": 4,
+      "slug": "/products/vonome-product-task-bing",
+      "ImageUrl": "assets/task_bing.svg",
+      "RelatedProductName": "Vonome Task Bing System",
+      "RelatedProductHeadings": "For professionals and teams managing tasks & workflows",
+      "RelatedProductContents": "Track and manage all aspects of your sales cycle, customer data, and more in one place.",
+      "RelatedProductBtn": "Get Started"
+    }
+  ],
+  "docs-resource-data": [
+    {
+      "slug": null,
+      "key": "Docs",
+      "order": 1,
+      "icon": "fa-solid fa-circle-user",
+      "label": "Docs",
+      "description": [],
+      "submenu": [
+        {
+          "slug": "/products/vonome-product-sme",
+          "key": "Board integrations",
+          "order": 1,
+          "icon": "fa-solid fa-clipboard-check",
+          "label": "Board integrations",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-invoicemanager",
+          "key": "Real-time engine",
+          "order": 2,
+          "icon": "fa-brands fa-searchengin",
+          "label": "Real-time engine",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Board of intregration  straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-crm",
+          "key": "Tagging",
+          "order": 3,
+          "icon": "fa-solid fa-tags",
+          "label": "Tagging",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-easyaccounts",
+          "key": "Multiple editors",
+          "order": 4,
+          "icon": "fa-solid fa-newspaper",
+          "label": "Multiple editors",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-erp",
+          "key": "Live updates",
+          "order": 5,
+          "icon": "fa-solid fa-briefcase",
+          "label": "workdoc",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-task-bing",
+          "key": "Checklist",
+          "order": 6,
+          "icon": "fa-solid fa-list-check",
+          "label": "Checklist",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/products/vonome-product-hrpayroll",
+          "key": "Autosave",
+          "order": 7,
+          "icon": "fa-solid fa-robot",
+          "label": "Autosave",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "/page/services",
+      "key": "Support",
+      "order": 2,
+      "icon": "fas fa-hands-helping",
+      "label": "Services",
+      "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>",
+      "submenu": []
+    },
+    {
+      "slug": "",
+      "key": "Resources",
+      "order": 3,
+      "icon": "fas fa-box",
+      "label": "Resources",
+      "description": [],
+      "submenu": [
+        {
+          "slug": "/page/bonik.com",
+          "key": "Help Center",
+          "order": 1,
+          "icon": "fa-solid fa-handshake-angle",
+          "label": "Help Center",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/page/bonik.delivery",
+          "key": "24/7 support",
+          "order": 2,
+          "icon": "fa-solid fa-heart",
+          "label": "24/7 support",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/page/bonnik.plus",
+          "key": "Community",
+          "order": 3,
+          "icon": "fa-solid fa-headset",
+          "label": "Community",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/page/bonik.deals",
+          "key": "bonik-deals",
+          "order": 4,
+          "icon": "fa-solid fa-handshake-simple",
+          "label": "Bonik Deals",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/page/bonik.app",
+          "key": "Partners",
+          "order": 5,
+          "icon": "fa-solid fa-heart",
+          "label": "Partners",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        },
+        {
+          "slug": "/page/products",
+          "key": "Global events",
+          "order": 5,
+          "icon": "fa-solid fa-heart",
+          "label": "Global events",
+          "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "/page/docs-resources",
+      "key": "About us",
+      "order": 4,
+      "icon": "fas fa-info-circle",
+      "label": "About us",
+      "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>",
+      "submenu": []
+    },
+    {
+      "slug": "/page/contact",
+      "key": "Contact",
+      "order": 5,
+      "icon": "fas fa-envelope",
+      "label": "Contact Us",
+      "description": "<span style='font-size: 28px; font-weight: bold; margin-bottom: 20px;'>Embed any of your monday boards straight into your workdoc.</span><h2 style='font-size: 24px; font-weight: bold; margin-bottom: 16px;'>Consectetur adipiscing elit</h2><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Lorem ipsum dolor sit amet elit. Ut sollicitudin sollicitudin sem  eros venenatis a. Nam vitae tristique neque neque. Donec tristique consectetur imperdiet  commodo lectus justo ex ut lectus. Quisque scelerisque magna vitae diam ultrices nunc ultricies. Integer ut vestibulum purus mauris. Donec fermentum felis in orci fringilla feugiat. Mauris varius dapibus sem ex tincidunt et. Vestibulum tincidunt neque ut elit eleifend mattis.</p><p style='font-size: 16px; line-height: 1.5; margin-bottom: 24px;'>Fusce dictum ligula id libero fermentum fringilla. Cras imperdiet massa ac sagittis finibus. Morbi in fermentum lorem. Vestibulum in justo eget arcu vulputate tempus at non mauris. Suspendisse potenti. Sed dignissim felis vel lacus luctus orci consequat. Mauris vel nisi in sapien tincidun ultrices a nec elit. Vivamus cursus odio id arcu fermentum non iaculis nulla tempor. Morbi volutpat arcu sed lacus ultriceselit tempor. Morbi lobortis eleifend aliquam.</p>",
+      "submenu": []
+    }
+  ],
+  "help-center-data": [
+    {
+      "helpicon": "fa solid fa-book",
+      "helpHeading": "Read articles",
+      "helpContent": "Dive into the details about monday.com features and workflows"
+    },
+    {
+      "helpicon": "fa solid fa-graduation-cap",
+      "helpHeading": "Discover the academy",
+      "helpContent": "Take courses and watch webinars at your own pace"
+    },
+    {
+      "helpicon": "fa solid fa-youtube",
+      "helpHeading": "Watch video tutorials",
+      "helpContent": "Short videos that show you how it's done"
+    },
+    {
+      "helpicon": "fa solid fa-comments",
+      "helpHeading": "Join our community",
+      "helpContent": "Learn with fellow monday.com enthusiasts"
+    },
+    {
+      "helpicon": "fa solid fa-tags",
+      "helpHeading": "Technical documentation",
+      "helpContent": "API documentation that gives you the control"
+    },
+    {
+      "helpicon": "fa solid fa-star",
+      "helpHeading": "Learn what’s new",
+      "helpContent": "Explore our latest feature releases and improvements"
+    }
+  ],
+  "constant-data": {
+    "heroTop":"ELEVATING",
+    "heroHeadings": "IT Service Industry wit Digital Skills Development",
+    "heroSubHeadings": "Bulipe Tech as a visionary agent collaborates with its parent companies from the USA and UK to bring forth a far-reaching Digital Skills Development project for the ever-changing workforce of Bangladesh.",
+    "heroDetailsBtn": "Let's Started",
+    "AuthBtn": "Sign Up",
+    "RequestBtn": "Enroll Now",
+    "ReadMoreBtn": "Read More",
+    "AccountBtn": "Read More",
+    "AccountTop":"What We Do?",
+    "howDoesTop":"How Does It Work?",
+    "OurProgramTop":"Our Program",
+    "AccountHeading": "Bulipe Tech is a dynamic and innovative company",
+    "AccountPera": "We empower individuals to unlock career opportunities through our proven Digital Skill Development program. Partnering with 300 local organisations and 3,000+ global partners in 21 countries, we provide access to top U.S. certifications and salary-based employment starting at $250, with the potential to exceed $3,000 through continuous up-skilling.",
+    "ERPHeading": "Cloud ERP",
+    "ERPSubHeading": "Manage your projects by<br><b>Planning, Organizing, & Executing.</b>",
+    "ERPPera": "Boost your team’s alignment, efficiency, and productivity by customizing any workflow to fit your needs.",
+    "ERPBtn": "Explore ERP",
+    "HRPayrollHeading": "HR Management",
+    "HRPayrollSubHeading": "Everything you need for workflow",
+    "HRPayrollPera": "Easily build your ideal workflow with vonome.com building blocks.",
+    "HRPayrollBtn": "Explore HR & PAYROLL",
+    "TaskBingHeading": "Task Bing",
+    "TaskBingSubHeading": "Manage your projects by<br><b>Planning, Organizing, & Executing.</b>",
+    "TaskBingPera": "Boost your team’s alignment, efficiency, and productivity by customizing any workflow to fit your needs.",
+    "TaskBingBtn": "Explore Task Bing",
+    "logoinfo": "Design amazing digital experiences that create more happiness in the world.",
+    "WhyWeAreBestFitHeading": "Why we are best fit for you?",
+    "feedbackHeading": "Clients Who Trust Us",
+    "feedbackSubHeading": "From techpreneurs to start-ups to enterprises, read our success stories from clients across diverse industries.",
+    "feedbackBtn": "Explore More",
+    "ProductGlanceBtn": "Lets Started",
+    "ProductGlanceLearnBtn": "Learn More",
+    "PartnerHeading": "Our Partners",
+    "PartnerBtn": "Explore Partner",
+    "businessGrowHeading": "Ready to grow your business?",
+    "businessGrowBtn": "Try Free Trial",
+    "productGalnceCasesHeading": "Top use cases:",
+    "temrs": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "copyright": "© 2023 Vonome Website. All rights reserved.",
+    "newsLetterHeading": "Receive the latest Newsletter updates.",
+    "newsLetterBtn": "Subscribe",
+    "notFoundHeading": "404",
+    "NotFonudSubHeading": "Look Like you're lost",
+    "NotFoundContent": "the page you are looking for not available",
+    "goToHomeBtn": "Go to home",
+    "requestDemoHeading": "REQUEST DEMO",
+    "requestDemoBtn": "Get Demo",
+    "AboutHeadings": "About Us",
+    "AboutSubHeadings": "Transforming Businesses with Software Excellence",
+    "AboutPeraHeadings": "Vonome: Customized Software Excellence for Your Success",
+    "AboutBtn": "View About Us",
+    "TeamsHeadings": "Meet The Team Of Professional That We Have Consultation",
+    "coreServiceHeading": "Empowering Businesses with Innovative Software Solutions",
+    "ServicesHeadings": "Services",
+    "ServicesSubHeadings": "The Services What We Provides that's Simplier Your Business & Life",
+    "ServicesPeraHeadings": "We offer services that customised to your specific project needs.",
+    "ServicesBtn": "View Services",
+    "DocHeadings": "Docs & Resouces",
+    "DocSubHeadings": "The Resouce We Provides that's Simplier Your Business & Life",
+    "blogIconHeadings": "Blog",
+    "blogHeadings": "Welcome to our Blog Section!",
+    "blogPeraHeadings": "Here, we aim to publish informative and insightful articles, news, and much more. Through our blog, you can acquire knowledge on various topics, receive career advancement advice, and stay connected with us.<br>By sharing our published articles on this platform, we strive to enhance your knowledge and expertise on different subjects. Our blog covers discussions on technology, education, best practices, personal development, and more.<br><br><b>Subscribe to our website for notifications on new blog posts and follow us on our social media pages to stay updated.</b>",
+    "subscribeBtn": "Subscribe",
+    "socialInfolabel": "Follow Us On:",
+    "blogCartHeadings": "Save Your Preferred Posts in Our Blog Cart.",
+    "blogCartSubHeadings": "Store your favorite blog posts in your blog cart and revisit them later.",
+    "blogCartName": "Rashedul Islam",
+    "blogCartTime": "Time of Posting",
+    "blogArticleIcon": "fa-solid fa-newspaper",
+    "blogArticleHeadings": "Article",
+    "ArticleRecentBtn": "Recent",
+    "ArticlePopularBtn": "Popular",
+    "loadMoreBtn": "Load More",
+    "SmeProductImgUrl": "assets/sme.svg",
+    "SmeProductHeadings": "SME",
+    "SmeProductSubHeadings": "The SME software that's simple to set up and easy to use",
+    "SmeProductPeraHeadings": "Vonome SME lets you handle all your Business in one place.",
+    "CRMProductImgUrl": "assets/crm.svg",
+    "CRMProductHeadings": "CRM",
+    "CRMProductSubHeadings": "The CRM software that's simple <br> to set up and easy to use",
+    "CRMProductPeraHeadings": "Vonome sales CRM lets you handle all your work in one place.",
+    "HRProductImgUrl": "assets/hr.svg",
+    "HRProductHeadings": "HR & Payroll",
+    "HRProductSubHeadings": "The HRM software that's simple <br> to set up and easy to use",
+    "HRProductPeraHeadings": "Vonome HRM lets you handle all your work in one place.",
+    "INVProductImgUrl": "assets/hr.svg",
+    "INVProductHeadings": "E-Invoice",
+    "INVProductSubHeadings": "The E-Invoice software that's simple <br> to set up and easy to use",
+    "INVProductPeraHeadings": "Vonome E-Invoice lets you handle all your record in one place.",
+    "ERPProductImgUrl": "assets/hr.svg",
+    "ERPProductHeadings": "ERP",
+    "ERPProductSubHeadings": "The ERP software that's simple <br> to set up and easy to use",
+    "ERPProductPeraHeadings": "Vonome ERP lets you handle all your System in one place.",
+    "TBProductImgUrl": "assets/hr.svg",
+    "TBProductHeadings": "Task Bing",
+
+    "TBProductSubHeadings": "The Task Bing software that's simple <br> to set up and easy to use",
+    "TBProductPeraHeadings": "Vonome Task Bing lets you handle all your System in one place.",
+    "ACMProductImgUrl": "assets/accounting.svg",
+    "ACMProductHeadings": "Easy Accounting",
+
+    "ACMProductSubHeadings": "The ACM software that's simple <br> to set up and easy to use",
+    "ACMProductPeraHeadings": "Vonome ACM lets you handle all your Accounts in one place.",
+    "ProductBtn": "View Product",
+    "MoreProductHeadings": "Explore more powerful Vonome products",
+    "FaqHeadingTop": "Frequently Asked Questions",
+    "productWiseFaqHeading": "Product Wise FAQ",
+    "helpCenterHeading": "We’re here to <span class='blue-text'>help</span> you"
+  }
+}

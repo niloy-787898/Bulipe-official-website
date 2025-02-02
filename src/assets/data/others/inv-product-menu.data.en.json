@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings": "Automated Invoicing",
+    "subHeading": "<span style='color: #FF6D60'>Streamlined Invoicing Process</span>",
+    "description": "Automate invoice creation, delivery, and tracking, reducing manual effort, minimizing errors, and improving the overall efficiency of the invoicing process.",
+    "AccordianHeading": "Faster Payment Processing",
+    "AccordianContents": "Expedite payment collection with electronic invoicing, enabling faster processing, reducing payment delays, and improving cash flow for your business.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings": "Cost and Time Savings",
+    "subHeading": "<span style='color: #F7D060;'>Reduction in Manual Effort</span>",
+    "description": "Save costs and time associated with printing, postage, and manual data entry by adopting e-invoicing, allowing for efficient and cost-effective invoice management.",
+    "AccordianHeading": "Error-free and Compliant Invoices",
+    "AccordianContents": "Ensure accurate invoice information and compliance with tax regulations, reducing the risk of errors, disputes, and penalties associated with manual invoicing.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings": "Enhanced Customer Experience",
+    "subHeading": "<span style='color:#187498;'>Convenient and Professional Invoicing</span>",
+    "description": "Provide your customers with a seamless invoicing experience, offering them electronic invoices that are easily accessible, trackable, and professional in appearance.",
+    "AccordianHeading": "Seamless Integration",
+    "AccordianContents": " Seamlessly integrate e-invoicing with your existing accounting or ERP systems, enabling smooth data exchange, reducing duplication, and improving data accuracy.",
+    "expanded": false
+  }
+]

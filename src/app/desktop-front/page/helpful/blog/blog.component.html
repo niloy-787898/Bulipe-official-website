@@ -1,0 +1,171 @@
+<main-header></main-header>
+
+<!-- Blog Banner Section -->
+<section class="blog-banner-section">
+  <div class="container">
+    <div class="blog-main">
+      <div class="blog-sub-upper">
+        <div class="heading-content">
+          <div class="icon-content">
+            <div class="blog-icon">
+              <i class="{{ dynamicConstentData.blogIcon }}"></i>
+            </div>
+            <div class="content">
+              <h1>{{ dynamicConstentData.blogIconHeadings }}</h1>
+            </div>
+          </div>
+          <h1>{{ dynamicConstentData.blogHeadings }}</h1>
+          <p [innerHTML]="dynamicConstentData.blogPeraHeadings">{{ dynamicConstentData.blogPeraHeadings }}</p>
+
+          <div class="subscription-form">
+            <form action="">
+              <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="input-btn">
+                <button type="submit">{{ dynamicConstentData.subscribeBtn }}</button>
+              </div>
+            </form>
+          </div>
+          <div class="teams-social-link">
+            <p>{{ dynamicConstentData.socialInfolabel }}</p>
+            <ng-container *ngFor="let socialinfo of socialInfos">
+              <li class="team-icon">
+                <a href="{{ socialinfo.link }}" target="_blank">
+                  <i class="{{ socialinfo.iconType }}"></i>
+                </a>
+              </li>
+            </ng-container>
+          </div>
+        </div>
+
+        <div class="cart-portion">
+          <div class="blog-cart">
+            <div class="blog-data-image">
+              <img class="img" src="assets/13295064_5172658.jpg" />
+              <h1>{{ dynamicConstentData.blogCartHeadings }}</h1>
+            </div>
+            <div class="blog-data-content">
+              <h2>{{ dynamicConstentData.blogCartSubHeadings }}</h2>
+              <div class="name-time-content">
+                <div class="profile-image">
+                  <div class="dp-image">
+                    <img src="{{ dynamicConstentData.blogCartImage }}" alt="" />
+                  </div>
+                  <div class="dp-name">
+                    <p>{{ dynamicConstentData.blogCartName }}</p>
+                  </div>
+                </div>
+                <div class="blog-time">
+                  <div class="time-icon">
+                    <i class="{{ dynamicConstentData.blogCartTimeIcon }}"></i>
+                  </div>
+                  <div class="time-duration">
+                    <p>{{ dynamicConstentData.blogCartTime }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Article Section -->
+<section class="blog-article-section">
+  <div class="container">
+    <div class="blog-article-main">
+      <div class="blog-article-header">
+        <div class="blog-article-heding">
+          <div class="article-icon">
+            <i class="{{ dynamicConstentData.blogArticleIcon }}"></i>
+          </div>
+          <div class="article-text">
+            <h1>{{ dynamicConstentData.blogArticleHeadings }}</h1>
+          </div>
+        </div>
+        <div class="blog-article-tabs">
+          <div
+            class="recent-tab"
+            [ngClass]="{ active: activeTab === 'recent' }"
+          >
+            <button
+              (click)="updateDisplayedPosts('recent')"
+            >{{ dynamicConstentData.ArticleRecentBtn }}</button>
+          </div>
+          <div
+            class="popular-tab"
+            [ngClass]="{ active: activeTab === 'popular' }"
+          >
+            <button
+              (click)="updateDisplayedPosts('popular')"
+            >{{ dynamicConstentData.ArticlePopularBtn }}</button>
+          </div>
+        </div>
+      </div>
+      <div class="blog-article-container">
+        <ng-container
+          *ngFor="
+            let post of activeTab === 'recent' ? recentPosts : popularPosts
+          "
+        >
+          <div class="blog-cart">
+            <div class="blog-data-image">
+              <img class="img" [src]="post.blogCartTopImage" />
+            </div>
+            <div class="blog-data-content">
+              <h1>{{ post.blogCartHeadings! }}</h1>
+              <h2>{{ post.blogCartSubHeadings! }}</h2>
+              <div class="name-time-content">
+                <div class="profile-image">
+                  <div class="dp-image">
+                    <img src="{{ post.blogCartImage }}" alt="" />
+                  </div>
+                  <div class="dp-name">
+                    <p>{{ post.blogCartName! }}</p>
+                  </div>
+                </div>
+                <div class="blog-time">
+                  <div class="time-icon">
+                    <i class="{{ post.blogCartTimeIcon }}"></i>
+                  </div>
+                  <div class="time-duration">
+                    <p>{{ post.blogCartTime! }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      <!-- Load More button and Loading animation -->
+      <div
+        class="load-more"
+        *ngIf="
+          !loadingMore &&
+          (activeTab === 'recent' ? recentPosts : popularPosts).length <
+          dynamicPageData.length
+        "
+        (click)="loadMorePosts()"
+      >
+        <button>{{ dynamicConstentData.loadMoreBtn }}</button>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="loading-animation" *ngIf="loadingMore">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<web-main-footer></web-main-footer>

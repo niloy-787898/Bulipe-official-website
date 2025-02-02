@@ -1,0 +1,265 @@
+.highlight-area {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #845cf5;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.heighlight-main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+.one {
+  background-color: #00aeff;
+  position: relative;
+  width: 100%;
+  min-height: 220px;
+}
+.two {
+  background-color: #845cf5;
+  position: relative;
+  width: 77%;
+  min-height: 280px;
+  margin: 0 auto;
+
+  .banner-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -64px;
+    left: 0;
+    .banner-sub {
+      padding: 0 30px 0 30px;
+      border-right: 1px solid rgba(255, 255, 255, 0.16);
+
+      h1 {
+        font-family: "Public Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 56px;
+        color: #ffffff;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      h2 {
+        font-family: "Switzer";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        color: #ffffff;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      p {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(255, 255, 255, 0.8);
+        max-width: 400px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+.curve {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: 0;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 63% 43% 0% 0%;
+    width: 107%;
+    height: 180%;
+    background-color: #845cf5;
+  }
+}
+.curve-two {
+  position: absolute;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -290px;
+    border-radius: 53% 55% 0 0;
+    width: 66%;
+    height: 224%;
+    background-color: #fec917;
+  }
+}
+@media (max-width: 1100px) {
+  .one {
+    background-color: #00aeff;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two {
+    background-color: #845cf5;
+    position: relative;
+    width: 100%;
+    min-height: 275px;
+
+    .banner-main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      top: -104px;
+      left: 40px;
+      .banner-sub {
+        padding: 0 30px 25px 30px;
+        border-right: hidden;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        h1 {
+          font-weight: 500;
+          font-size: 38px;
+          line-height: 44px;
+          padding-bottom: 8px;
+        }
+        h2 {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 20px;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+  .curve {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    &::before {
+      border-radius: 63% 43% 0% 0%;
+      width: 107%;
+      height: 179%;
+      background-color: #845cf5;
+    }
+  }
+  .curve-two {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+
+    &::before {
+      right: -98px;
+      border-radius: 91% 38% 0 0;
+      width: 66%;
+      height: 203%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .highlight-area {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .one {
+    background-color: #00aeff;
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two {
+    background-color: #845cf5;
+    position: relative;
+    width: 100%;
+    min-height: 510px;
+
+    .banner-main {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      height: auto;
+      position: absolute;
+      top: -204px;
+      left: 0;
+      .banner-sub {
+        padding: 0 30px 30px 30px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+        h1 {
+          font-size: 32px;
+          line-height: 40px;
+          padding-bottom: 10px;
+        }
+        h2 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+        p {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding-top: 20px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .curve {
+    position: absolute;
+    height: 180px;
+    width: 100%;
+    bottom: 0;
+    &::before {
+      border-radius: 100% 0% 0% 0%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .curve-two {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 400px;
+    z-index: 1;
+
+    &::before {
+      left: -36px;
+      border-radius: 27% 65% 0 0;
+      width: 49%;
+    }
+  }
+}

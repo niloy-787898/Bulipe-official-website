@@ -1,0 +1,27 @@
+[
+  {
+    "imageUrl": "assets/board.svg",
+    "title": "Attendance",
+    "contents": "Effortlessly track and manage attendance. Gain real-time insights and streamline attendance management processes."
+  },
+  {
+    "imageUrl": "assets/frame.svg",
+    "title": "Leave",
+    "contents": "Simplify leave management effortlessly. Streamline requests, approvals, and tracking for a well-organized leave system."
+  },
+  {
+    "imageUrl": "assets/dashboard.svg",
+    "title": "Payroll",
+    "contents": "Streamline payroll processes with ease. Simplify calculations, deductions, and reporting for seamless payroll management."
+  },
+  {
+    "imageUrl": "assets/plug.svg",
+    "title": "Automation",
+    "contents": "Effortlessly automate any application with our robust API integrations. Streamline processes and boost productivity."
+  },
+  {
+    "imageUrl": "assets/robot.svg",
+    "title": "Monitoring",
+    "contents": "Enhance productivity and accountability with employee monitoring. Gain insights to optimize performance and drive success."
+  }
+]

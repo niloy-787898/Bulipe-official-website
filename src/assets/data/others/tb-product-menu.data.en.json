@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings":"Efficient Task Organization",
+    "subHeading":"<span style='color: #0079FF'>Streamlined Task Tracking</span>",
+    "description":"Organize tasks effectively, assign priorities, set due dates, and track progress to enhance productivity and ensure timely completion of projects.",
+    "AccordianHeading": "Collaborative Workspaces",
+    "AccordianContents":"Create shared workspaces for teams, enabling seamless collaboration, communication, and task coordination, fostering teamwork and boosting productivity.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings":"Reminders and Notifications",
+    "subHeading":"<span style='color: #00DFA2;'>Timely Task Reminders</span>",
+    "description":"Receive reminders and notifications for upcoming tasks, ensuring that important deadlines are not missed and tasks are completed promptly. Stay on Top of Deadlines.",
+    "AccordianHeading": "Assign and Delegate Tasks",
+    "AccordianContents":"Assign tasks to team members, delegate responsibilities, and track progress, promoting accountability and ensuring tasks are appropriately distributed.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings":"Task Tracking and Analytics",
+    "subHeading":"<span style='color:#FF0060;'>Data-driven Performance Evaluation</span>",
+    "description":"Monitor task progress, track completion rates, and gain insights through analytics, enabling data-driven evaluation of performance and identifying areas for improvement.",
+    "AccordianHeading":"Integration and Automation",
+    "AccordianContents":"Integrate Task Bing with other tools and systems, automate repetitive tasks, and streamline workflows, enhancing efficiency and reducing manual effort.",
+    "expanded": false
+  }
+]

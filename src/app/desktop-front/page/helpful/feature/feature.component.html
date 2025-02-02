@@ -1,0 +1,54 @@
+<main-header></main-header>
+<div class="feature-section">
+  <div class="container">
+    <div class="tab-header-container">
+      <div class="container">
+        <div class="tab-header" webDragScroll>
+          <ng-container *ngFor="let featuremenu of dynamicPageData; let i = index">
+            <div
+              class="tab-item"
+              [class.active]="i === activeTab"
+              (click)="selectTab(i)"
+              [attr.data-target]="'tab-section-' + i"
+              [style]="{'--active-tab-border-color': i === activeTab ? activeTabBorderColor[i] : ''}"
+            >
+              <div class="icon-heading">
+                <i class="{{ featuremenu.tabIcon }}" [style.color]="activeTab === i ? iconColors[i] : ''"></i>
+                <h1>{{ featuremenu.tabHeadings! }}</h1>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+    <!-- Add the content sections with unique IDs -->
+    <div class="tab-content-container">
+      <ng-container *ngFor="let featuremenu of dynamicPageData; let i = index">
+        <section [id]="'tab-section-' + i" class="feature-content-section">
+          <div class="tab-content">
+            <div class="feature-content">
+              <h1>{{ featuremenu.contentHeading! }}</h1>
+              <h2>{{ featuremenu.contentSubHeading! }}</h2>
+            </div>
+            <div class="content-image-board" [style.backgroundColor]="backgroundColors[i]">
+              <div class="content-board">
+                <div class="icon">
+                  <i class="{{ featuremenu.tabIcon }}" [style.backgroundColor]="iconBackgroundColors[i]"></i>
+                </div>
+                <h1>{{ featuremenu.tabHeadings! }}</h1>
+                <p>{{ featuremenu.contentDescription! }}</p>
+              </div>
+              <div class="feature-image">
+                <img
+                  [src]="featuremenu.contentImage"
+                  alt="vonome-feature-image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </ng-container>
+    </div>
+  </div>
+</div>
+<web-main-footer></web-main-footer>

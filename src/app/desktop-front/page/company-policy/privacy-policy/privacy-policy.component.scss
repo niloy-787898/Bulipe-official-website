@@ -1,0 +1,51 @@
+.privacy-policy-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 120px 20px;
+  height: auto;
+  background: linear-gradient(
+    to right,
+    rgba(236, 199, 140, 0.329),
+    rgba(255, 252, 195, 0.242)
+  );
+  overflow: hidden;
+}
+.policy-main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.6);
+    vertical-align: baseline;
+    padding: 0;
+    text-align: center;
+  }
+  p {
+    i {
+      font-family: "Fira Sans", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.6);
+      vertical-align: baseline;
+    }
+  }
+  p {
+    margin:0;
+    padding: 15px 0;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    vertical-align: baseline;
+  }
+}

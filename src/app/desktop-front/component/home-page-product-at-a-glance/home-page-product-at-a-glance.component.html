@@ -1,0 +1,64 @@
+<section class="product-glance-section">
+  <div class="container">
+    <div class="product-glance-main">
+      <div class="product-tab-main">
+        <div class="tab-header" webDragScroll>
+          <ng-container *ngFor="let tab of dynamicPageData; let i = index">
+            <div
+              class="tab-item"
+              [class.active]="i === activeTab"
+              (click)="selectTab(i)"
+            >
+              <div class="image-heading">
+                <img [src]="tab.imageUrl" alt="Tab Image" />
+              </div>
+              <p>{{ tab.titles }}</p>
+            </div>
+          </ng-container>
+        </div>
+        <div class="tab-content">
+          <ng-container *ngFor="let tab of dynamicPageData; let i = index">
+            <div class="tab-pane" [class.active]="i === activeTab">
+              <div class="sub-content">
+                <div class="heading-content">
+                  <h1>{{ tab.headings }}</h1>
+                  <h2>{{ tab.subHeadings }}</h2>
+                  <p>{{ tab.contents }}</p>
+                </div>
+                <div class="option-content">
+                  <h1>{{ dynamicConstentData.productGalnceCasesHeading }}</h1>
+                  <div class="option-content-grid">
+                    <div class="option" *ngFor="let option of tab.options">
+                      <div class="image">
+                        <img
+                          src="assets/Frame 32.svg"
+                          alt="vonome-partner-image"
+                        />
+                      </div>
+                      <div class="text">
+                        <p>{{ option.content }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+          <div class="explore-area">
+            <div class="started-btn">
+              <div class="explore-btn">
+                <button>{{ dynamicConstentData.ProductGlanceBtn }}</button>
+              </div>
+              <div class="explore-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="learn-btn">
+              <button>{{ dynamicConstentData.ProductGlanceLearnBtn }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

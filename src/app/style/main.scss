@@ -1,0 +1,24 @@
+@import 'color';
+@import 'button';
+@import 'overwrite';
+@import 'setup';
+@import 'reset';
+@import 'card';
+
+:root{
+    --logo-color:#585656;
+    --menu-li-color:#333;
+    --menu-li-color-alt:#1f4276;
+
+    --btn-primary-bg-color : #{$app-primary-darker-color};
+    --btn-primary-color : #fff;
+
+    --primay-color:#1f4276;
+
+    --app-primary-color : #{$app-primary-color};
+    --app-primary-dark-color : #{$app-primary-dark-color};
+    --app-primary-darker-color: #{$app-primary-darker-color};
+
+    --app-primary-text-color: #{$app-primary-text-color};
+    --app-primary-text-alt-color: #{$app-primary-text-alt-color};
+}

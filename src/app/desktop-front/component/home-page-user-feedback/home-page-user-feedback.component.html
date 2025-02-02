@@ -1,0 +1,19 @@
+<section class="feedback-section">
+  <div class="container">
+    <div class="feedback-main">
+      <div class="feedback-main-content">
+        <ng-container *ngFor="let feedback of dynamicPageData">
+          <div class="feedback-cart">
+            <div class="client-image" >
+              <img [src]="feedback.ImageUrl" />
+            </div>
+            <h1 [innerHTML]="feedback.heading">
+              {{ feedback.heading }}
+            </h1>
+            <h2>{{ feedback.contents }}</h2>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

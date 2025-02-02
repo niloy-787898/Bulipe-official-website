@@ -1,0 +1,114 @@
+<section class="footer-section-main">
+  <div class="container mx-auto">
+    <div class="footer-main">
+      <div class="footer-logo-content">
+        <a routerLink="/"
+          ><img src="assets/images/logo.png" alt="Bulipe software logo"
+        /></a>
+        <p>{{ dynamicConstentData.logoinfo }}</p>
+
+        <div class="teams-social-link">
+          <ng-container *ngFor="let socialinfo of socialInfos">
+            <li class="team-icon">
+              <a href="{{ socialinfo.link }}" target="_blank">
+                <i class="{{ socialinfo.iconType }}"></i>
+              </a>
+            </li>
+          </ng-container>
+        </div>
+      </div>
+      <div class="footer-service-content">
+        <ng-container *ngFor="let footerContent of dynamicPageData">
+          <div
+            class="product-area col-span-2 sm:col-span-1 md:col-span-1"
+            *ngIf="footerContent.key === 'products'"
+          >
+            <h1 class="heading">{{ footerContent.label }}</h1>
+            <ng-container
+              *ngFor="let footersubcontent of footerContent.submenu"
+            >
+              <div class="service-option">
+                <img
+                  src="{{ footersubcontent.icon }}"
+                  alt="Bulipe-footer-icon"
+                />
+                <a routerLink="{{ footersubcontent.slug }}">
+                  <h2>{{ footersubcontent.label }}</h2></a
+                >
+              </div>
+            </ng-container>
+          </div>
+
+          <div
+            class="help-company-area col-span-2 sm:col-span-1 md:col-span-1"
+            *ngIf="
+              footerContent.key === 'helpful' || footerContent.key === 'company'
+            "
+          >
+            <div class="help-area" *ngIf="footerContent.key === 'helpful'">
+              <h1 class="heading">{{ footerContent.label }}</h1>
+              <ng-container
+                *ngFor="let footerContentSubmenu of footerContent.submenu"
+              >
+                <div class="service-option">
+                  <a routerLink="{{ footerContentSubmenu.slug }}">
+                    <h2>{{ footerContentSubmenu.label }}</h2></a
+                  >
+                </div>
+              </ng-container>
+            </div>
+
+            <div class="company-area" *ngIf="footerContent.key === 'company'">
+              <h1 class="heading">{{ footerContent.label }}</h1>
+              <ng-container
+                *ngFor="let footerContentSubmenu of footerContent.submenu"
+              >
+                <div class="service-option">
+                  <a routerLink="{{ footerContentSubmenu.slug }}">
+                    <h2>{{ footerContentSubmenu.label }}</h2></a
+                  >
+                </div>
+              </ng-container>
+            </div>
+          </div>
+
+          <div
+            class="contact-area col-span-2 sm:col-span-1 md:col-span-1"
+            *ngIf="footerContent.key === 'contact'"
+          >
+            <h1 class="heading">{{ footerContent.label }}</h1>
+            <ng-container
+              *ngFor="let footerContentSubmenu of footerContent.submenu"
+            >
+              <div class="service-option">
+                <img
+                  src="{{ footerContentSubmenu.icon }}"
+                  alt="Bulipe-footer-icon"
+                />
+                <a href="{{ footerContentSubmenu.slug }}" target="_blank">
+                  <h2>{{ footerContentSubmenu.label }}</h2></a
+                >
+              </div>
+            </ng-container>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="footer-bottom-info">
+      <div class="bottom-content-left">
+        <p>{{ dynamicConstentData.copyright }}</p>
+      </div>
+      <div class="bottom-content-right">
+        <a routerLink="/page/terms"
+          ><p>{{ dynamicConstentData.temrs }}</p></a
+        >
+        <a routerLink="/page/privacy-policy"
+          ><p>{{ dynamicConstentData.privacy }}</p></a
+        >
+        <a routerLink="/page/cookies"
+          ><p>{{ dynamicConstentData.cookies }}</p></a
+        >
+      </div>
+    </div>
+  </div>
+</section>

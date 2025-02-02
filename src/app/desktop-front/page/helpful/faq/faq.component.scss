@@ -1,0 +1,650 @@
+.sub-banner-area {
+  display: block;
+  width: 100%;
+  margin: 75px 0 0 0;
+}
+.sub-banner-main {
+  display: block;
+  padding: 70px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  border-radius: 4px;
+  background: linear-gradient(
+    135deg,
+    rgba(224, 97, 6, 0.795) 0%,
+    rgba(207, 46, 46, 0.975) 100%
+  );
+  .img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    img {
+      max-width: 80px;
+      width: 100%;
+      display: block;
+    }
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 60px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+.faq-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.section1-main {
+  display: block;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 0px 10px 15px 0 rgba(207, 46, 46, 0.84);
+}
+@media (max-width: 700px) {
+  .sub-banner-area {
+    display: block;
+    width: 100%;
+    margin: 60px auto 0 auto;
+  }
+  .sub-banner-main {
+    display: block;
+    padding: 50px 15px;
+    
+    .img-content {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      gap: 8px;
+      img {
+        max-width: 40px;
+        display: block;
+        margin: 0 auto;
+      }
+      h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+//Services Accordian FAQ
+
+.crm-inquary-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 100px 20px;
+  overflow: hidden;
+}
+.crm-inquary-main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.accordion {
+  max-width: 900px;
+  width: 100%;
+  .accordion-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 10px;
+    .accordion-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 15px;
+      background-color: transparent;
+      cursor: pointer;
+      h1 {
+        flex: 1;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0;
+      }
+      .arrow-icon {
+        transition: transform 0.5s;
+      }
+      i {
+        color: rgba(0, 0, 0, 0.56);
+      }
+    }
+    .accordion-content {
+      padding: 25px 15px;
+      max-height: 1000px;
+      transition: max-height 0.3s ease;
+      p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .crm-inquary-section {
+    padding: 0 20px 75px 20px;
+  }
+  .crm-inquary-main {
+    padding: 10px;
+  }
+  .accordion {
+    max-width: 750px;
+    width: 100%;
+    .accordion-item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+      margin-bottom: 10px;
+      .accordion-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 10px;
+        background-color: transparent;
+        cursor: pointer;
+        h1 {
+          flex: 1;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+        }
+        .arrow-icon {
+          transition: transform 0.5s;
+        }
+        i {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.56);
+        }
+      }
+      .accordion-content {
+        padding: 15px 10px;
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .crm-inquary-section {
+    padding: 0 15px 60px 15px;
+  }
+  .accordion {
+    margin: 0 auto;
+    max-width: 550px;
+    .accordion-item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+      margin-bottom: 10px;
+      .accordion-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 10px;
+        background-color: transparent;
+        cursor: pointer;
+        h1 {
+          flex: 1;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+        }
+        .arrow-icon {
+          transition: transform 0.5s;
+        }
+        i {
+          font-size: 12px;
+          color: rgba(0, 0, 0, 0.56);
+        }
+      }
+      .accordion-content {
+        padding: 15px 10px;
+        p {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 990px) {
+  .section1-main {
+    padding: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .section1-main {
+    padding: 30px 20px;
+    border-radius: 0px;
+  }
+}
+
+//product-faq-section
+.product-wise-faq-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 120px 20px;
+  overflow: hidden;
+}
+.product-wise-faq-main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+.product-faq-title {
+  display: block;
+  margin: 60px;
+  text-align: center;
+  h1 {
+    color: rgba(0, 0, 0, 0.511);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    display: block;
+    line-height: 33px;
+  }
+}
+.product-tab-main {
+  position: relative;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 20px;
+  justify-content: start;
+  align-items: start;
+  order: 1;
+  padding: 50px 30px;
+  .tab-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border: 0.8px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    .tab-item {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 7px;
+      width: 100%;
+      cursor: pointer;
+      padding: 20px 10px;
+
+      .image-heading {
+        display: block;
+        width: 100%;
+        max-width: 20.75px;
+        height: auto;
+      }
+      p {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0b23528d;
+      }
+    }
+    .tab-item.active {
+      background: rgba(255, 255, 255, 0.242);
+      border-bottom: 2px solid #0a1e3d41;
+      box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.08);
+      border-radius: 7px 7px 0px 0px;
+    }
+  }
+  .tab-content {
+    padding: 60px 20px;
+    margin: 0 80px 0 80px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 0.8px solid rgba(255, 255, 255, 0.2);
+    .tab-pane {
+      display: none;
+
+      .sub-content {
+        .heading-content {
+          margin-bottom: 20px;
+          h1 {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 10px;
+          }
+          h2 {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 30px;
+          }
+        }
+        .accordion {
+          max-width: 850px;
+          width: 100%;
+          .accordion-item {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+            margin-bottom: 10px;
+            .accordion-heading {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 20px 15px;
+              background-color: transparent;
+              cursor: pointer;
+              h1 {
+                flex: 1;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: rgba(0, 0, 0, 0.6);
+                margin: 0;
+              }
+              .arrow-icon {
+                transition: transform 0.5s;
+              }
+              i {
+                color: rgba(0, 0, 0, 0.56);
+              }
+            }
+            .accordion-content {
+              padding: 25px 15px;
+              max-height: 1000px;
+              transition: max-height 0.3s ease;
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .tab-pane.active {
+      display: block;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .product-wise-faq-section {
+    padding: 60px 20px;
+  }
+  .product-faq-title {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    h1 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  .product-tab-main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    order: 1;
+    padding: 10px 20px;
+    .tab-header {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      .tab-item {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 7px;
+        width: 100%;
+        cursor: pointer;
+        padding: 15px 7px;
+        .image-heading {
+          display: block;
+          width: 100%;
+          max-width: 15px;
+          height: auto;
+        }
+        p {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .tab-content {
+      padding: 10px;
+      margin: 40px 0;
+      .tab-pane {
+        display: none;
+        .sub-content {
+          .heading-content {
+            margin-bottom: 20px;
+            h1 {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              margin-bottom: 7px;
+            }
+            h2 {
+              font-family: "Public Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 18px;
+              margin-bottom: 30px;
+            }
+          }
+          .accordion {
+            max-width: 850px;
+            width: 100%;
+            .accordion-item {
+              margin-bottom: 7px;
+              .accordion-heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 8px;
+                background-color: transparent;
+                cursor: pointer;
+                h1 {
+                  flex: 1;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 18px;
+                }
+                .arrow-icon {
+                  transition: transform 0.5s;
+                }
+                i {
+                  color: rgba(0, 0, 0, 0.56);
+                }
+              }
+              .accordion-content {
+                padding: 15px 8px;
+                max-height: 1000px;
+                transition: max-height 0.3s ease;
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .tab-pane.active {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .product-wise-faq-section {
+    padding: 40px 15px;
+  }
+  .product-faq-title {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    h1 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  }
+  .product-tab-main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    padding: 10px 0;
+    .tab-header {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      overflow-x: scroll;
+      width: 100%;
+      border: 0.8px solid rgba(87, 87, 87, 0.169);
+      border-radius: 7px;
+      padding: 5px 5px; /* Added padding for better visibility */
+      overflow-x: auto;
+      /* Optional styles to hide the scrollbars */
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      gap: 0;
+      &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+
+      .tab-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding: 12px 15px; /* Added padding for better visibility */
+        margin: 0 auto 0 auto;
+        .image-heading {
+          display: none;
+        }
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          white-space: nowrap; /* Prevent word wrapping */
+          overflow: hidden; /* Hide overflowing text */
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .tab-content {
+      padding: 0px;
+      margin: 15px 0;
+      .tab-pane {
+        display: none;
+        .sub-content {
+          .heading-content {
+            margin-bottom: 10px;
+            h1 {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 18px;
+              margin-bottom: 15px;
+            }
+            h2 {
+              display: none;
+            }
+          }
+          .accordion {
+            max-width: 850px;
+            width: 100%;
+            .accordion-item {
+              margin-bottom: 10px;
+              .accordion-heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 12px 5px;
+                background-color: transparent;
+                cursor: pointer;
+                h1 {
+                  flex: 1;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 18px;
+                }
+                .arrow-icon {
+                  transition: transform 0.5s;
+                }
+                i {
+                  color: rgba(0, 0, 0, 0.56);
+                }
+              }
+              .accordion-content {
+                padding: 10px 8px;
+                max-height: 1000px;
+                transition: max-height 0.3s ease;
+                p {
+                  font-size: 12px;
+                  line-height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .tab-pane.active {
+        display: block;
+      }
+    }
+  }
+}

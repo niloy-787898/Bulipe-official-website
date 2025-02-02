@@ -1,0 +1,64 @@
+<section class="accounting-section">
+  <div class="container">
+    <div class="accounting-main">
+      <div class="accounting-sub-one" [ngClass]="{'animate': isAnimated}">
+        <div class="accountion-heading-image">
+          <img src="assets/task_bing_white.svg" alt="vonome task blink image" />
+        </div>
+        <h1>{{ dynamicConstentData.TaskBingHeading }}</h1>
+        <div class="hide-content-accodian">
+          <div class="accordion" [class.expanded]="isExpanded">
+            <div class="accordion-header" (click)="toggleAccordion()">
+              <h2>{{ dynamicConstentData.TaskBingSubHeading }}</h2>
+              <i [class]=" 'arrow-icon ' + (isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down') "></i>
+            </div>
+            <div class="accordion-content">
+              <p>{{ dynamicConstentData.TaskBingPera }}</p>
+              <div class="accounting-options">
+                <ul>
+                  <ng-container *ngFor="let taskbing of dynamicPageData">
+                    <li class="opt">
+                      <img [src]="taskbing.ImageUrl" />
+                      <p>{{ taskbing.titles }}</p>
+                    </li>
+                  </ng-container>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="show-content-view">
+          <h2 [innerHTML]="dynamicConstentData.TaskBingSubHeading">{{ dynamicConstentData.TaskBingSubHeading }}</h2>
+          <p>{{ dynamicConstentData.TaskBingPera }}</p>
+          <div class="accounting-options">
+            <ul>
+              <ng-container *ngFor="let taskbing of dynamicPageData">
+                <li class="opt">
+                  <img [src]="taskbing.ImageUrl" />
+                  <p>{{ taskbing.titles }}</p>
+                </li>
+              </ng-container>
+            </ul>
+          </div>
+        </div>
+        <div class="explore-btn" routerLink="/products/vonome-product-task-bing">
+          <button>{{ dynamicConstentData.TaskBingBtn }}</button>
+          <img src="assets/ArrowRight.svg" />
+        </div>
+      </div>
+      <div class="accounting-sub-two" [ngClass]="{'animate': isAnimated}">
+        <div class="background-portion">
+          <div class="account-data-image">
+            <img class="img" [lazyLoad]="'assets/Frame 5605.png'" />
+          </div>
+        </div>
+      </div>
+      <div class="center-btn">
+        <div class="explore-btn-copy" routerLink="/products/vonome-product-task-bing">
+          <button>{{ dynamicConstentData.TaskBingBtn }}</button>
+          <img src="assets/ArrowRight.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

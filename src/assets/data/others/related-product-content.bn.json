@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "slug": "/products/vonome-product-crm",
+    "ImageUrl": "assets/crm.svg",
+    "RelatedProductName": "ভনমি সিআরএম সিস্টেম",
+    "RelatedProductHeadings": "পেশাদার এবং দল যারা কাজ এবং কার্যপ্রবাহ পরিচালনা করে",
+    "RelatedProductContents": "কাজগুলি, প্রকল্পগুলি এবং প্রক্রিয়াগুলি পরিচালনা করুন যাত্রা এবং দক্ষতা বৃদ্ধি করার জন্য।",
+    "RelatedProductBtn": "শুরু করুন"
+  },
+  {
+    "id": 2,
+    "slug": "/products/vonome-product-hrpayroll",
+    "ImageUrl": "assets/hr.svg",
+    "RelatedProductName": "ভনমি এইচআর এবং বেতন সিস্টেম",
+    "RelatedProductHeadings": "বিক্রয় পেশাদার এবং গ্রাহকদের সামনের দিকে দল এবং সদস্যরা",
+    "RelatedProductContents": "আপনার বিক্রয় চক্রে, গ্রাহকের ডেটা এবং আরও সমস্ত দিকগুলি একটি স্থানে ট্র্যাক এবং পরিচালনা করুন।",
+    "RelatedProductBtn": "শুরু করুন"
+  },
+  {
+    "id": 3,
+    "slug": "/products/vonome-product-easyaccounts",
+    "ImageUrl": "assets/accounting.svg",
+    "RelatedProductName": "ভনমি এসিএম সিস্টেম",
+    "RelatedProductHeadings": "প্রোডাক্ট এবং উন্নতি পেশাদার এবং দলের জন্য",
+    "RelatedProductContents": "প্রোডাক্ট, ডিজাইন এবং আরএনডি দলগুলি এবং উন্নতি পরিচালনার জন্য সজাগ কাজপ্রণালী গড়ে তৈরি করুন।",
+    "RelatedProductBtn": "শুরু করুন"
+  },
+  {
+    "id": 4,
+    "slug": "/products/vonome-product-task-bing",
+    "ImageUrl": "assets/task_bing.svg",
+    "RelatedProductName": "ভনমি টাস্ক বিং সিস্টেম",
+    "RelatedProductHeadings": "পেশাদার এবং দল যারা কাজ এবং কার্যপ্রবাহ পরিচালনা করে",
+    "RelatedProductContents": "বিক্রয় চক্র, গ্রাহকের ডেটা এবং আরও সমস্ত দিকগুলি একটি স্থানে ট্র্যাক এবং পরিচালনা করুন।",
+    "RelatedProductBtn": "শুরু করুন"
+  }
+]

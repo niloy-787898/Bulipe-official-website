@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "assets/about-bg.jpg",
+    "headings": "About Vonome Software Solutions",
+    "description": "Established in 2018, Vonome Software Solutions is a leading provider of innovative software products and services. We specialize in offering a range of solutions, including Vonome SME, Vonome CRM, Cloud ERP, Easy Accounting, HR & Payroll, and more. Our subscription-based model ensures seamless access to our cutting-edge products, empowering businesses of all sizes. With a commitment to delivering global standards, we aim to transform industries and drive digital transformation.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/ab-bg-2.avif",
+    "headings": "Empowering Businesses through Technology",
+    "description": "Welcome to Vonome Software Solutions, the catalyst for digital transformation. Since 2018, we have been empowering businesses of all sizes with our state-of-the-art technology solutions. From Vonome SME and Vonome CRM to Cloud ERP, Easy Accounting, HR & Payroll, and beyond, our comprehensive range of products and services caters to diverse industry verticals. By harnessing the power of technology, we help organizations streamline processes, enhance efficiency, and drive growth. Our customer-centric approach and relentless pursuit of excellence have made us a trusted partner for businesses worldwide. Together, let's embrace the digital revolution and shape a brighter future.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/about-bg-3.avif",
+    "headings": "Driving Innovation for a Digital Future",
+    "description": "At Vonome Software Solutions, we are passionate about revolutionizing the digital landscape. Since our establishment in 2018, we have been committed to delivering cutting-edge software solutions that empower businesses to thrive in the digital era. With a comprehensive suite of products and services, including Vonome SME, Vonome CRM, Cloud ERP, Easy Accounting, HR & Payroll, and more, we enable organizations to streamline operations, enhance productivity, and unlock their full potential. Our dedicated team of experts combines technical expertise with industry insights to create innovative solutions tailored to our clients' needs. Join us on this exciting journey as we pave the way for a digital future.",
+    "expanded": false
+  }
+]

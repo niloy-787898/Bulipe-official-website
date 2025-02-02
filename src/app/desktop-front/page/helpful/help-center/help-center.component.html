@@ -1,0 +1,30 @@
+<main-header></main-header>
+<section class="help-center-section">
+  <div class="container">
+    <div class="page-title">
+      <h1 [innerHTML]="dynamicConstentData.helpCenterHeading">
+        {{ dynamicConstentData.helpCenterHeading }}
+      </h1>
+    </div>
+    <div class="front-links-main">
+      <div class="front-links-content">
+        <ng-container *ngFor="let helpCenterdata of dynamicPageData">
+        <div class="link-container">
+          <a>
+            <div class="link-content">
+                <div class="image-link">
+                  <i class="{{ helpCenterdata.helpicon }}"></i>
+                </div>
+                <div class="text-content">
+                  <h2>{{ helpCenterdata.helpHeading }}</h2>
+                  <p>{{ helpCenterdata.helpContent }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>
+<web-main-footer></web-main-footer>

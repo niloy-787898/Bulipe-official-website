@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "রাশেদুল ইসলাম",
+    "MemberRole": "সহ-প্রতিষ্ঠাতা ও সিইও",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ImageUrl": "assets/nafia_islam.jfif",
+    "MemberName": "নাফিয়া মাসরুরা ইউহা",
+    "MemberRole": "উপপ্রেসিডেন্ট, ব্যবসা উন্নয়ন",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ImageUrl": "assets/sunil.jpg",
+    "MemberName": "সুনীল চন্দ্র করমকার",
+    "MemberRole": "সফটওয়্যার ইঞ্জিনিয়ার",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "শাহিনুর ইসলাম",
+    "MemberRole": "সফটওয়্যার ইঞ্জিনিয়ার",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "জসীম উদ্দিন",
+    "MemberRole": "সফটওয়্যার ইঞ্জিনিয়ার",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "সিয়াম আহমেদ",
+    "MemberRole": "প্রকল্প পরিচালক",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  }
+]

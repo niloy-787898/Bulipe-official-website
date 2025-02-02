@@ -1,0 +1,40 @@
+<section class="hero-section">
+  <img class="starleft" src="assets/star_left.svg" />
+  <img class="starleft2" src="assets/star_left2.svg" />
+  <img class="starright" src="assets/star_right.svg" />
+  <img class="starright2" src="assets/star_right2.svg" />
+  <div class="container">
+    <div class="hero-main">
+      <div class="hero-sub-one" [ngClass]="{ animate: isAnimated }">
+        <h1>{{ dynamicConstentData.heroTop }}</h1>
+
+        <h2>{{ dynamicConstentData.heroHeadings }}</h2>
+
+        <p>
+          {{ dynamicConstentData.heroSubHeadings }}
+        </p>
+
+        <div class="button-area">
+          <div class="enroll-btn" routerLink="/">
+            <button>{{ dynamicConstentData.RequestBtn }}</button>
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+          <div class="read-more-btn" routerLink="/">
+            <button>{{ dynamicConstentData.ReadMoreBtn }}</button>
+            <i class="fa-solid fa-info"></i>
+          </div>
+        </div>
+      </div>
+      <div class="hero-sub-two" [ngClass]="{ animate: isAnimated }">
+        <div class="background-portion">
+          <div class="account-data-image">
+            <img
+              class="img"
+              [lazyLoad]="'assets/images/altra-violet-process 1.png'"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

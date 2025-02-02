@@ -1,0 +1,124 @@
+<header id="header">
+  <section class="header-section">
+    <div class="header-main">
+      <div class="container">
+        <div class="header-navber">
+          <div class="header-image">
+            <a routerLink="/">
+              <img
+                class="h-10 max-w-none"
+                src="assets/images/Logo.png"
+                alt="Bulipe software logo"
+            /></a>
+          </div>
+          <div class="lg:flex hidden main-menu">
+            <ul>
+              <ng-container *ngFor="let appMenu of dynamicPageData">
+                <ng-container>
+                  <li>
+                    {{ appMenu.label }}
+                  </li>
+                </ng-container>
+              </ng-container>
+            </ul>
+          </div>
+          <div class="auth-menu">
+            <ul>
+              <li class="login-btn">
+                <button >
+                  {{ dynamicConstentData.AuthBtn }}
+                </button>
+                <i class="fa-solid fa-circle-user"></i>
+              </li>
+
+              <li class="lg:hidden" (click)="onHamburgerAction()">
+                <div
+                  class="mobile-menu-action"
+                  [ngClass]="{ 'active-mobile': isHamburgerActive }"
+                >
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-sub-mobile">
+        <div
+          class="hamburger-content-area py-5 lg:hidden"
+          [ngClass]="{ hidden: !isHamburgerActive }"
+        >
+          <ul>
+            <ng-container
+              *ngFor="let appMenu of dynamicPageData; let i = index"
+            >
+              <ng-container
+                *ngIf="appMenu.submenu.length < 1; else withDropdown"
+              >
+                <li>
+                  <a routerLink="{{ appMenu.slug }}"
+                    ><h1 class="submenu-heding">{{ appMenu.label }}</h1>
+                  </a>
+                </li>
+              </ng-container>
+              <ng-template #withDropdown>
+                <li class="mobile-nav-item" (click)="toggleAccordions(i)">
+                  <div class="accordion-heading">
+                    <h1 class="submenu-heding">{{ appMenu.label }}</h1>
+                    <i
+                      [class]="
+                        'arrow-icon ' +
+                        (appMenu.expanded
+                          ? 'fa-solid fa-angle-up'
+                          : 'fa-solid fa-angle-down')
+                      "
+                    ></i>
+                  </div>
+                  <ul
+                    class="dropdown-{{ appMenu.key }}"
+                    [ngClass]="{ hide: !appMenu.expanded }"
+                  >
+                    <li>
+                      <div class="grid grid-cols-1 md:grid-cols-2">
+                        <ng-container *ngFor="let subMenu of appMenu.submenu">
+                          <div class="sublist-main">
+                            <div
+                              class="sublist"
+                              routerLink="{{ subMenu.slug }}"
+                            >
+                              <div class="image">
+                                <img
+                                  src="{{ subMenu.icon }}"
+                                  alt="Bulipe-header-icon"
+                                />
+                              </div>
+                              <div class="details">
+                                <h1>{{ subMenu.label }}</h1>
+                                <h2>{{ subMenu.description }}</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </ng-container>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ng-template>
+            </ng-container>
+
+            <li routerLink="/page/request-demo">
+              <button class="submenu-heding">
+                {{ dynamicConstentData.RequestBtn }}
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>

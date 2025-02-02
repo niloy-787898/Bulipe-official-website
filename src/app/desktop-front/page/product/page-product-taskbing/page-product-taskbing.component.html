@@ -1,0 +1,129 @@
+<main-header></main-header>
+<!-- CRM Banner Section -->
+<section class="product-crm-banner-section">
+  <div class="container">
+    <div class="product-crm-main">
+      <div class="product-crm-sub-upper">
+        <div class="heading-content">
+          <div class="image-content">
+            <div class="crm-image">
+              <img src="assets/task_bing.svg" alt="vonome-crm-image" />
+            </div>
+            <div class="content">
+              <h1>{{ dynamicConstentData.TBProductHeadings }}</h1>
+            </div>
+          </div>
+          <h1 [innerHTML]="dynamicConstentData.TBProductSubHeadings">{{ dynamicConstentData.TBProductSubHeadings }}</h1>
+          <h2>{{ dynamicConstentData.TBProductPeraHeadings }}</h2>
+
+          <div class="explore-btn" appSmoothScroll>
+            <button>{{ dynamicConstentData.ProductBtn }}</button>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="image-portion">
+          <div class="crm-data-image">
+            <img class="img" src="assets/Group-1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CRM Product Details -->
+<section class="produt-details-crm" id="belowSection">
+  <div class="container">
+    <div class="product-details-main">
+      <ng-container *ngFor="let productInfo of dynamicPageData; let i = index">
+        <div class="product-sub-content">
+          <div class="product-details-left" [ngClass]="getGridOrder(i)">
+            <h1>{{ productInfo.headings }}</h1>
+            <h2 [innerHTML]="productInfo.subHeading ">{{ productInfo.subHeading }}</h2>
+            <p>{{ productInfo.description }}</p>
+          </div>
+          <div class="product-details-right" [ngClass]="getGridOrder(i)">
+            <div class="image-portion">
+              <div class="crm-data-image">
+                <img class="img" [src]="productInfo.image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<!-- CRM INQUERY Section -->
+<section class="crm-inquary-section">
+  <div class="container">
+    <div class="crm-inquary-main">
+      <div class="crm-inquary-main-left">
+        <div class="accordion">
+          <div
+            class="accordion-item"
+            *ngFor="let productInfo of dynamicPageData; let i = index"
+          >
+            <div class="accordion-heading" (click)="toggleAccordion(i)">
+              <h1>{{ productInfo.AccordianHeading }}</h1>
+              <i
+                [class]="
+                  'arrow-icon ' +
+                  (productInfo.expanded
+                    ? 'fa-solid fa-angle-up'
+                    : 'fa-solid fa-angle-down')
+                "
+              ></i>
+            </div>
+            <div class="accordion-content" [hidden]="!productInfo.expanded">
+              <p>{{ productInfo.AccordianContents }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="crm-inquary-main-right">
+        <div class="image-portion">
+          <div class="crm-data-image">
+            <img class="img" src="assets/Group-1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- More Product Section -->
+<section class="more-product-banner-section">
+  <div class="container">
+    <div class="more-product-banner-main">
+      <div class="heading-content">
+        <h1>{{ dynamicConstentData.MoreProductHeadings }}</h1>
+      </div>
+      <div class="more-product-banner-main-content">
+        <ng-container *ngFor="let relatedProduct of relatedProducts">
+        <div class="product-cart">
+            <div class="image-content">
+              <div class="crm-image">
+                <img [src]="relatedProduct.ImageUrl" />
+              </div>
+              <div class="content">
+                <h1>{{ relatedProduct.RelatedProductName! }}</h1>
+              </div>
+            </div>
+
+            <h2>{{ relatedProduct.RelatedProductHeadings! }}</h2>
+            <p>{{ relatedProduct.RelatedProductContents! }}</p>
+
+            <div class="explore-btn" [routerLink]="relatedProduct.slug">
+              <button>{{ relatedProduct.RelatedProductBtn }}</button>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>
+
+<web-main-footer></web-main-footer>

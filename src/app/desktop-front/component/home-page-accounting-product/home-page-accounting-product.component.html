@@ -1,0 +1,40 @@
+<section class="accounting-section">
+  <div class="container">
+    <div class="heading">
+      <h1>{{ dynamicConstentData.AccountTop }}</h1>
+    </div>
+    <div class="accounting-main">
+      <div class="accounting-sub-one" [ngClass]="{ animate: isAnimated }">
+        <h1>{{ dynamicConstentData.AccountHeading }}</h1>
+
+        <p>{{ dynamicConstentData.AccountPera }}</p>
+
+        <div
+          class="explore-btn"
+          routerLink="/products/vonome-product-easyaccounts"
+        >
+          <button>{{ dynamicConstentData.AccountBtn }}</button>
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </div>
+      </div>
+      <div class="accounting-sub-two" [ngClass]="{ animate: isAnimated }">
+
+        <div class="background-portion">
+          <div class="account-data-image">
+            <img class="img" [lazyLoad]="'assets/images/Img.png'" />
+          </div>
+        </div>
+
+      </div>
+      <div class="center-btn">
+        <div
+          class="explore-btn-copy"
+          routerLink="/products/vonome-product-easyaccounts"
+        >
+          <button>{{ dynamicConstentData.AccountBtn }}</button>
+          <img src="assets/ArrowRight.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

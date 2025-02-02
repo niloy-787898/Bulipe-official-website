@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #000 !important;
+  cursor: pointer;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+  margin-bottom: 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}

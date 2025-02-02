@@ -1,0 +1,49 @@
+<!-- CORE SERVICE PRODUCT -->
+<section class="timeline-section" id="belowSection">
+  <div class="container">
+    <div class="timeline-main">
+      <div class="top-section">
+        <h1>{{ dynamicConstentData.coreServiceHeading }}</h1>
+      </div>
+      <div class="timeline">
+        <div class="lineMain"></div>
+        <div class="main-cart-view">
+          <div class="bg-image">
+            <canvas #animationCanvas></canvas>
+          </div>
+          <div class="left-cart-view">
+            <div
+              class="cart left"
+              *ngFor="let coreService of dynamicPageData"
+              [id]="'leftCart-' + coreService.id"
+              (mouseenter)="showRightCart(coreService.id)"
+            >
+              <div class="content">
+                <img [src]="coreService.url" alt="Image" />
+                <h1>{{ coreService.headingsleft! }}</h1>
+                <h2>{{ coreService.headingsSubLeft! }}</h2>
+                <p>{{ coreService.contentsLeft! }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-cart-view" [style.top]="rightCartTop">
+            <div
+              class="cart right"
+              *ngFor="let coreService of dynamicPageData; let i = index"
+              [class.active]="coreService.id === activeId"
+              (mouseenter)="showRightCart(coreService.id)"
+            >
+              <div class="content">
+                <img [src]="coreService.url" alt="Image" />
+                <h1>{{ coreService.headingsRight! }}</h1>
+                <h2>{{ coreService.headingsSubRight! }}</h2>
+                <p>{{ coreService.contentsRight! }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

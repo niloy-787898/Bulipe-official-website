@@ -1,0 +1,22 @@
+<section class="grow-business-section">
+  <div class="container">
+    <div class="grow-business-main">
+      <h1>{{ dynamicConstentData.businessGrowHeading }}</h1>
+      <div class="trial-btn">
+        <button>{{ dynamicConstentData.businessGrowBtn }}</button>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+
+      <div class="business-option">
+        <ng-container *ngFor="let businessGrow of dynamicPageData">
+          <div class="option">
+            <div class="icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6>{{ businessGrow.contents }}</h6>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

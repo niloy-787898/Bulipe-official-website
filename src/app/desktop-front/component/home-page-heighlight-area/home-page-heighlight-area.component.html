@@ -1,0 +1,19 @@
+<section class="highlight-area">
+  <div class="heighlight-main">
+    <div class="one">
+      <div class="curve"></div>
+    </div>
+    <div class="two">
+      <div class="banner-main container">
+        <ng-container *ngFor="let highlight of dynamicPageData">
+          <div class="banner-sub">
+            <h1>{{ highlight.percent }}</h1>
+            <h2>{{ highlight.title }}</h2>
+            <p>{{ highlight.contents }}</p>
+          </div>
+        </ng-container>
+      </div>
+      <div class="curve-two"></div>
+    </div>
+  </div>
+</section>

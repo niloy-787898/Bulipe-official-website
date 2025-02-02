@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "assets/sme.svg",
+    "titles": "SME",
+    "headings": "Vonome SME Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/erp.svg",
+    "titles": "ERP",
+    "headings": "Vonome ERP Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/crm.svg",
+    "titles": "CRM",
+    "headings": "Vonome CRM Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/hr.svg",
+    "titles": "HR",
+    "headings": "Vonome HR Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/e-invoice.svg",
+    "titles": "Invoice",
+    "headings": "Vonome Invoice Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "assets/accounting.svg",
+    "titles": "Accounting",
+    "headings": "Vonome Accounting Payroll",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "assets/task_bing.svg",
+    "titles": "Task Bing",
+    "headings": "Vonome Task Bing",
+    "subHeadings": "For sales professionals and customer-facing teams",
+    "contents": "Manage tasks and workflows to fuel team collaboration and productivity at scale.",
+    "options": [
+      {
+        "content": "Enterprise Resource Planning (ERP), Client-server application, software development."
+      },
+      {
+        "content": "Client-server application, software development."
+      },
+      {
+        "content": "2Client-server application, software development."
+      }
+    ]
+  }
+]

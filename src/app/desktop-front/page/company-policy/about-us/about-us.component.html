@@ -1,0 +1,90 @@
+<main-header></main-header>
+<!-- ABOUT Banner Section -->
+<section class="about-banner-section">
+  <div class="container">
+    <div class="about-main">
+      <div class="about-sub-upper">
+        <div class="heading-content">
+          <div class="icon-content">
+            <div class="service-icon">
+              <i class="fa-solid fa-address-card"></i>
+            </div>
+            <div class="content">
+              <h1>{{ dynamicConstentData.AboutHeadings }}</h1>
+            </div>
+          </div>
+          <h1>{{ dynamicConstentData.AboutSubHeadings }}</h1>
+          <h2>{{ dynamicConstentData.AboutPeraHeadings }}</h2>
+
+          <div class="explore-btn" appSmoothScroll>
+            <button>{{ dynamicConstentData.AboutBtn }}</button>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="image-portion">
+          <div class="service-data-image">
+            <img class="img" src="assets/about-us-information-service-sharing-join-concept.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT Product Details -->
+<section class="about-details-sme" id="belowSection">
+  <div class="container">
+    <div class="about-details-main">
+      <ng-container *ngFor="let aboutInfoItem of dynamicPageData; let i = index">
+        <div class="about-sub-content">
+          <div class="about-details-left" [ngClass]="getGridOrder(i)">
+            <h1>{{ aboutInfoItem.headings }}</h1>
+            <p>{{ aboutInfoItem.description }}</p>
+          </div>
+          <div class="about-details-right" [ngClass]="getGridOrder(i)">
+            <div class="image-portion">
+              <div class="sme-data-image">
+                <img class="img" [src]="aboutInfoItem.image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<!-- Teams Section -->
+<section class="teams-section">
+  <div class="container">
+    <div class="teams-main">
+      <div class="heading-content">
+        <h1>{{ dynamicConstentData.TeamsHeadings }}</h1>
+      </div>
+      <div class="teams-main-content">
+        <ng-container *ngFor="let teamsInfoItem of teamsInfos; let i = index">
+          <div class="product-cart" [ngClass]="{'center-start': i === centerStartIndex, 'center-end': i === centerEndIndex}">
+            <div class="teams-image">
+              <img [src]="teamsInfoItem.ImageUrl" />
+            </div>
+            <div class="teams-details">
+              <h1>{{ teamsInfoItem.MemberName }}</h1>
+              <h2>{{ teamsInfoItem.MemberRole }}</h2>
+            </div>
+            <div class="teams-social-link">
+              <ng-container *ngFor="let socialinfo of teamsInfoItem.MemberSocialLink">
+                <li class="team-icon">
+                  <a href="{{ socialinfo.link }}" target="_blank">
+                    <i class="{{ socialinfo.iconType }}"></i>
+                  </a>
+                </li>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>
+
+<web-main-footer></web-main-footer>

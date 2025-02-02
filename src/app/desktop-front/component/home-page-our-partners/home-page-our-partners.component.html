@@ -1,0 +1,16 @@
+<section class="our-partner-section">
+  <div class="container">
+    <div class="our-partner-main">
+      <h1>{{ dynamicConstentData.PartnerHeading }}</h1>
+      <div class="partner-option">
+        <ng-container *ngFor="let partner of dynamicPageData">
+          <div class="option"><img [src]="partner.ImageUrl" alt="vonome-partner-image" /></div>
+        </ng-container>
+      </div>
+      <div class="explore-btn">
+        <button>{{ dynamicConstentData.PartnerBtn }}</button>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </div>
+</section>

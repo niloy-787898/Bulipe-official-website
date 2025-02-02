@@ -1,0 +1,346 @@
+.feature-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+.tab-header-container {
+  position: fixed;
+  margin-top: 85px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9;
+  border-top: 1px solid rgba(0, 0, 0, 0.119);
+  transition: opacity 0.3s ease-in-out;
+
+  .tab-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .tab-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 18px 0;
+      cursor: pointer;
+      .icon-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        i {
+          font-size: 20px;
+          color: #b9bec7;
+        }
+        h1 {
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          color: #b9bec7;
+        }
+      }
+    }
+    .tab-item.active {
+      border-bottom: 2px solid var(--active-tab-border-color, #7b68ee);
+      box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.08);
+    }
+  }
+}
+.tab-content-container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  padding: 60px 20px 100px 20px;
+  .feature-content-section {
+    padding: 65px 0 75px 0;
+    .tab-content {
+      .feature-content {
+        padding: 50px 0 50px 0;
+        h1 {
+          color: #242323;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 60px;
+          padding-bottom: 10px;
+          margin: 0;
+          text-align: center;
+        }
+        h2 {
+          font-family: "Roboto", sans-serif;
+          font-style: normal;
+          text-align: center;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22x;
+          padding: 10px 0;
+          color: #aab3c2;
+          margin: 0;
+        }
+      }
+      .content-image-board {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        border-radius: 25px;
+        padding: 25px;
+        background-image: url(../../../../../assets/dots.svg);
+        .content-board {
+          padding: 25px;
+          .icon {
+            margin-bottom: 30px;
+            i {
+              border-radius: 25%;
+              box-shadow: 5px 5px 10px 2px #2973abd2;
+              padding: 17px;
+              margin: 0 auto;
+              font-size: 28px;
+              color: #fff;
+            }
+          }
+          h1 {
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            padding-bottom: 20px;
+            margin: 0;
+          }
+          p {
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            line-height: 24px;
+            margin-bottom: 0;
+            max-width: 350px;
+          }
+        }
+        .feature-image {
+          position: relative; /* Set the container to relative positioning */
+          display: block;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          img {
+            max-width: 900px;
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin: 0 auto;
+            display: block; /* Ensure the image takes up the whole container width */
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .tab-header-container {
+    position: fixed;
+    margin-top: 95px;
+  }
+}
+@media (max-width: 1000px) {
+  .tab-header-container {
+    margin-bottom: 25px;
+    margin-top: 85px;
+    .tab-header {
+      margin-left: 0px;
+      .tab-item {
+        padding: 15px 5px;
+        .icon-heading {
+          gap: 3px;
+          i {
+            font-size: 16px;
+          }
+          h1 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .tab-content-container {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    padding: 60px 20px 20px 20px;
+    .feature-content-section {
+      padding: 65px 0 30px 0;
+      .tab-content {
+        .feature-content {
+          padding: 25px 0 25px 0;
+          h1 {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            padding-bottom: 0px;
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            padding: 7px 0;
+          }
+        }
+        .content-image-board {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: start;
+          gap: 10px;
+          border-radius: 15px;
+          padding: 25px 15px;
+          .content-board {
+            padding: 15px;
+            .icon {
+              margin-bottom: 20px;
+              i {
+                padding: 10px;
+                font-size: 16px;
+              }
+            }
+            h1 {
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 28px;
+              padding-bottom: 16px;
+            }
+            p {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              max-width: 350px;
+            }
+          }
+          .feature-image {
+            img {
+              max-width: 700px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .tab-header-container {
+    position: fixed;
+    margin-top:70px;
+    top: 0px;
+    margin-bottom: 25px;
+    .tab-header {
+      justify-content: start;
+      overflow-x: scroll;
+      width: 100%;
+      border-radius: 7px;
+      padding: 0; /* Added padding for better visibility */
+      overflow-x: auto;
+      /* Optional styles to hide the scrollbars */
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+      .tab-item {
+        padding: 15px 15px; /* Added padding for better visibility */
+        .icon-heading {
+          gap: 3px;
+          i {
+            font-size: 14px;
+          }
+          h1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+          }
+        }
+      }
+      .tab-item.active {
+        border-bottom: 1px solid var(--active-tab-border-color, #7b68ee);
+      }
+    }
+  }
+  .tab-content-container {
+    padding: 50px 20px 20px 20px;
+    .feature-content-section {
+      padding: 65px 0 0px 0;
+      .tab-content {
+        .feature-content {
+          padding: 25px 0 20px 0;
+          h1 {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            padding-bottom: 0px;
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 5px 0;
+          }
+        }
+        .content-image-board {
+          gap: 5px;
+          border-radius: 10px;
+          padding: 20px 12px;
+          .content-board {
+            padding: 15px;
+            .icon {
+              margin-bottom: 20px;
+              i {
+                padding: 7px;
+                font-size: 12px;
+              }
+            }
+            h1 {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 22px;
+              padding-bottom: 12px;
+            }
+            p {
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 16px;
+              max-width: 350px;
+            }
+          }
+          .feature-image {
+            img {
+              max-width: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

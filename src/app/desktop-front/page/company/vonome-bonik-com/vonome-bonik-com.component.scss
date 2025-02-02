@@ -1,0 +1,90 @@
+.sub-banner-area{
+    display: block;
+    width: 100%;
+    margin-top: 75px;
+}
+.sub-banner-main{
+    display: block;
+    background-image: url('../../../../../assets/ab-main-bg-2.jpg');
+    padding: 100px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+}
+.sub-banner-main::after{
+    content: "";
+    background-color: rgb(201 33 39 / 50%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    border-radius: 6px;
+}
+.sub-banner-main h3{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:35px;
+    display: block;
+    margin-bottom: 20px!important;
+}
+.sub-banner-main ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sub-banner-main ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.sub-banner-area ul li a{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    transition: all 0.3s linear;
+}
+.sub-banner-area ul li a i{
+    font-size: 14px;
+}
+.sub-banner-area ul li a:hover{
+    text-decoration: underline;
+}
+@media(max-width:540px){
+    .sub-banner-area{
+      margin-top: 0px;
+    }
+    .sub-banner-main{
+        border-radius: 0px;
+    }
+    .sub-banner-main::after{
+        border-radius: 0px;
+    }
+    .sub-banner-main h3{
+        font-size: 30px;
+    }
+    .sub-banner-area ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:550px){
+    .sub-banner-area{
+        margin-bottom: 20px;
+    }
+    .category-banner{
+        margin-bottom: 20px;
+    }
+   
+}

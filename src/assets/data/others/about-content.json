@@ -1,0 +1,53 @@
+{
+  "AboutImgUrl": "fa-solid fa-address-card",
+  "AboutHeadings": [
+    {
+      "ln": "en",
+      "content": "About Us"
+    },
+    {
+      "ln": "bn",
+      "content": "About Us"
+    }
+  ],
+  "AboutSubHeadings": [
+    {
+      "ln": "en",
+      "content": "Transforming Businesses with Software Excellence"
+    },
+    {
+      "ln": "bn",
+      "content": "সফটওয়্যার উন্নতির মাধ্যমে ব্যবসা পরিবর্তন"
+    }
+  ],
+  "AboutPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome: Customized Software Excellence for Your Success"
+    },
+    {
+      "ln": "bn",
+      "content": "ভোনোমি:  আপনার সাফল্যের জন্য কাস্টমাইজড সফটওয়্যার"
+    }
+  ],
+  "AboutBtn": [
+    {
+      "ln": "en",
+      "content": "View About Us"
+    },
+    {
+      "ln": "bn",
+      "content": "About Us দেখুন"
+    }
+  ],
+  "TeamsHeadings": [
+    {
+      "ln": "en",
+      "content": "Meet The Team Of Professional That We Have Consultation"
+    },
+    {
+      "ln": "bn",
+      "content": "পরামর্শের জন্য আমাদের দক্ষ দলের সঙ্গে পরিচয় করুন"
+    }
+  ]
+}

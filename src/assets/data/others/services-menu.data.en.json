@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "/products/vonome-product-sme",
+    "image": "assets/Group-1.png",
+    "headings": "Custom Software Development",
+    "subHeading": "<span style='color: #c57ee9;'>Tailored Solutions for Your Unique Needs</span>",
+    "description": "At Vonome, we specialize in providing custom software development services to businesses of all sizes. Our expert team of developers works closely with you to understand your specific requirements and build software solutions that align perfectly with your business objectives. Whether you need a comprehensive enterprise application or a custom plugin for your existing system, we've got you covered. Our commitment to quality and innovation ensures that you receive reliable, scalable, and secure software solutions that empower your business to thrive in today's digital landscape.",
+    "viewMoreBtn": "Viwe More",
+    "AccordianHeading": "What is custom software development service?",
+    "AccordianContents": "Vonome provides custom software development services for business growth. We offer tailored and personalized software solutions that enhance your business processes and facilitate development according to your specific needs.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "slug": "/products/vonome-product-crm",
+    "image": "assets/Group-1.png",
+    "headings": "Business Automation",
+    "subHeading": "<span style='color: #83c5f8;'>Streamlining Efficiency, Enhancing Productivity</span>",
+    "description": "At Vonome, we offer cutting-edge business automation solutions that streamline your processes, reduce manual intervention, and enhance overall productivity. Our team leverages the latest technologies to implement workflow automation, data integration, and process orchestration tailored to your unique business requirements. By automating repetitive tasks and optimizing essential operations, our solutions enable you to focus on strategic initiatives, make data-driven decisions, and achieve greater efficiency in your organization.",
+    "viewMoreBtn": "Viwe More",
+    "AccordianHeading": "What is business automation service?",
+    "AccordianContents": "Vonome provides business automation service to enhance your business processes and facilitate development according to your specific needs.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "slug": "/products/vonome-product-erp",
+    "image": "assets/Group-1.png",
+    "headings": "Website Development",
+    "subHeading": "<span style='color: #e97e97;'>Engaging Designs, Seamless Functionality</span>",
+    "description": "At Vonome, we excel in crafting visually stunning and functionally robust website development that leave a lasting impression on your visitors. Our website development team combines creativity and technical expertise to build custom websites that reflect your brand identity and meet your business objectives. We prioritize responsive design, intuitive navigation, and seamless user experiences to ensure that your website performs flawlessly across all devices. From simple static sites to complex dynamic portals, we have the proficiency to deliver web solutions that captivate and convert your audience.",
+    "viewMoreBtn": "Viwe More",
+    "AccordianHeading": "What is website development service?",
+    "AccordianContents": "Vonome provides website development service to enhance your brand identity and achieve your business objectives.",
+    "expanded": false
+  },
+  {
+    "id": 4,
+    "slug": "/products/vonome-product-easyaccounts",
+    "image": "assets/Group-1.png",
+    "headings": "App Development",
+    "subHeading": "<span style='color: #cc29af;'>Transforming Ideas into Seamless Mobile Solutions</span>",
+    "description": "Vonome offers comprehensive app development services, turning your app ideas into reality. Our proficient team of app developers specializes in creating user-friendly, feature-rich, and high-performance mobile applications for both Android and iOS platforms. We follow a systematic approach to app development, starting from conceptualization and design to development, testing, and deployment. We prioritize user experience and ensure that the apps we build are scalable, secure, and optimized for maximum user engagement. Whether you need a business app, e-commerce app, or a custom mobile solution, we have the expertise to deliver the perfect app for your needs.",
+    "viewMoreBtn": "Viwe More",
+    "AccordianHeading": "What is app development service?",
+    "AccordianContents": "Vonome offers app development services that transform your app idea into a functional reality.",
+    "expanded": false
+  }
+]

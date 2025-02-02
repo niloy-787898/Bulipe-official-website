@@ -1,0 +1,82 @@
+<main-header></main-header>
+<section class="request-demo-section">
+  <div class="container">
+    <div class="request-demo-main">
+      <form>
+        <h1 class="form-heading">{{dynamicConstentData.requestDemoHeading}}</h1>
+        <div class="form-group">
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="Company"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="jobTitle"
+            name="jobTitle"
+            placeholder="Job Title"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="workEmail"
+            name="workEmail"
+            placeholder="Work Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <select id="countryId" name="countryId" required [(ngModel)]="countryId">
+            <option value="0">-- Select Country --</option>
+            <option *ngFor="let country of countries" [value]="country.id">{{ country.name }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div class="demo-btn">
+          <button type="submit">{{dynamicConstentData.requestDemoBtn}}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<web-main-footer></web-main-footer>

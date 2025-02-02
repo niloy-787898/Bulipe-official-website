@@ -1,0 +1,461 @@
+{
+  "SmeProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/sme.svg"
+    }
+  ],
+  "SmeProductHeadings": [
+    {
+      "ln": "en",
+      "content": "SME"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার ব্যবসায়  <span class='color-blue'><b  >পরিচালনায়</b></span>  সহজ<br/> এবং  সঠিক সহায়তায় "
+    }
+  ],
+  
+  "SmeProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The SME software that's simple to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "SmeProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome SME lets you handle all your Business in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+  
+
+
+  "CRMProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/crm.svg"
+    }
+  ],
+  "CRMProductHeadings": [
+    {
+      "ln": "en",
+      "content": "CRM"
+    },
+    {
+      "ln": "bn",
+      "content": "CRM "
+    }
+  ],
+  
+  "CRMProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The CRM software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "CRMProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome sales CRM lets you handle all your work in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+  
+
+
+  "HRProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/hr.svg"
+    }
+  ],
+  "HRProductHeadings": [
+    {
+      "ln": "en",
+      "content": "HR & Payroll"
+    },
+    {
+      "ln": "bn",
+      "content": "HR & Payroll"
+    }
+  ],
+  
+  "HRProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The HRM software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "HRProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome HRM lets you handle all your work in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+
+
+  "INVProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/hr.svg"
+    }
+  ],
+  "INVProductHeadings": [
+    {
+      "ln": "en",
+      "content": "E-Invoice"
+    },
+    {
+      "ln": "bn",
+      "content": "E-Invoice"
+    }
+  ],
+  
+  "INVProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The E-Invoice software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "INVProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome E-Invoice lets you handle all your record in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+
+
+  "ERPProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/hr.svg"
+    }
+  ],
+  "ERPProductHeadings": [
+    {
+      "ln": "en",
+      "content": "ERP"
+    },
+    {
+      "ln": "bn",
+      "content": "E-Invoice"
+    }
+  ],
+  
+  "ERPProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The ERP software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "ERPProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome ERP lets you handle all your System in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+  
+  "TBProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/hr.svg"
+    }
+  ],
+  "TBProductHeadings": [
+    {
+      "ln": "en",
+      "content": "Task Bing"
+    },
+    {
+      "ln": "bn",
+      "content": "Task Bing"
+    }
+  ],
+  
+  "TBProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The Task Bing software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+  "TBProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome Task Bing lets you handle all your System in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+  
+
+  "ACMProductImgUrl": [
+    {
+      "ln": "en",
+      "content": "assets/accounting.svg"
+    }
+  ],
+  "ACMProductHeadings": [
+    {
+      "ln": "en",
+      "content": "Easy Accounting"
+    },
+    {
+      "ln": "bn",
+      "content": "Easy Accounting"
+    }
+  ],
+  
+  "ACMProductSubHeadings": [
+    {
+      "ln": "en",
+      "content": "The ACM software that's simple <br> to set up and easy to use"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম"
+    }
+  ],
+  "ACMProductPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Vonome ACM lets you handle all your Accounts in one place."
+    },
+    {
+      "ln": "bn",
+      "content": "আরো বিস্তারিত "
+    }
+  ],
+  
+
+
+
+  "ProductBtn": [
+    {
+      "ln": "en",
+      "content": "View Product"
+    },
+    {
+      "ln": "bn",
+      "content": "Product দেখুন"
+    }
+  ],
+  "MoreProductHeadings": [
+    {
+      "ln": "en",
+      "content": "Explore more powerful Vonome products"
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার সম্পূর্ণ ব্যবসা চালানোর জন্য সঠিক সফ্টওয়্যারের মাধ্যমেই, সহজ ভাবে  দীর্ঘমেয়াদী পরিচালনা করা সম্ভম "
+    }
+  ],
+
+
+  
+  "AccountBtn": [
+    {
+      "ln": "en",
+      "content": "Explore Accounting"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "AccountHeading": [
+    {
+      "ln": "en",
+      "content": "Accounting"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "AccountSubHeading": [
+    {
+      "ln": "en",
+      "content": "Manage your projects by<br><b>Planning, Organizing, & Executing.</b>"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "AccountPera": [
+    {
+      "ln": "en",
+      "content": "Boost your team’s alignment, efficiency, and productivity by customizing any workflow to fit your needs."
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "ERPHeading": [
+    {
+      "ln": "en",
+      "content": "Cloud ERP"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "ERPSubHeading": [
+    {
+      "ln": "en",
+      "content": "Manage your projects by<br><b>Planning, Organizing, & Executing.</b>"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "ERPPera": [
+    {
+      "ln": "en",
+      "content": "Boost your team’s alignment, efficiency, and productivity by customizing any workflow to fit your needs."
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "ERPBtn": [
+    {
+      "ln": "en",
+      "content": "Explore ERP"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "HRPayrollHeading": [
+    {
+      "ln": "en",
+      "content": "HR Management"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "HRPayrollSubHeading": [
+    {
+      "ln": "en",
+      "content": "Everything you need for workflow"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "HRPayrollPera": [
+    {
+      "ln": "en",
+      "content": "Easily build your ideal workflow with vonome.com building blocks."
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "HRPayrollBtn": [
+    {
+      "ln": "en",
+      "content": "Explore HR & PAYROLL"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "TaskBingHeading": [
+    {
+      "ln": "en",
+      "content": "Task Bing"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "TaskBingSubHeading": [
+    {
+      "ln": "en",
+      "content": "Manage your projects by<br><b>Planning, Organizing, & Executing.</b>"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "TaskBingPera": [
+    {
+      "ln": "en",
+      "content": "Boost your team’s alignment, efficiency, and productivity by customizing any workflow to fit your needs."
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ],
+  "TaskBingBtn": [
+    {
+      "ln": "en",
+      "content": "Explore Task Bing"
+    },
+    {
+      "ln": "bn",
+      "content": "ডেমো"
+    }
+  ]
+}

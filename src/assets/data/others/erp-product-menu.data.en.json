@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings": "Centralized Data Management",
+    "subHeading": "<span style='color: rgba(197, 122, 69)'>Centralized Control of Information</span>",
+    "description": "Streamline your business operations with an ERP system that centralizes data management, ensuring accurate and up-to-date information accessible across departments for informed decision-making.",
+    "AccordianHeading": "Process Automation",
+    "AccordianContents": "Improve operational efficiency by automating manual tasks, such as order processing, inventory management, and financial reporting, reducing errors and saving time for employees.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings": "Financial Management",
+    "subHeading": "<span style='color: #B31312;'>Integrated Financial Operations</span>",
+    "description": "Streamline financial processes, including accounts payable, accounts receivable, general ledger, and financial reporting, enabling accurate financial analysis and ensuring compliance.",
+    "AccordianHeading": "Inventory Optimization",
+    "AccordianContents": "Optimize inventory levels, reduce stockouts and overstock situations, and gain real-time visibility into inventory across multiple locations for effective supply chain management.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings": "Customer Relationship Management (CRM)",
+    "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Enhanced Customer Management</span>",
+    "description": "Improve customer satisfaction and loyalty with integrated CRM functionalities, allowing you to track customer interactions, manage leads, and provide personalized services.",
+    "AccordianHeading": "Real-time Analytics",
+    "AccordianContents": "Make informed business decisions with real-time analytics, customizable dashboards, and comprehensive reporting, providing valuable insights into performance, trends, and opportunities.",
+    "expanded": false
+  }
+]

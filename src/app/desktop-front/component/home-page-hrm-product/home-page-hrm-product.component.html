@@ -1,0 +1,86 @@
+<section class="hr-managment-section">
+  <div class="container">
+    <div class="hr-management">
+      <div class="heading">
+        <h1>{{ dynamicConstentData.OurProgramTop }}</h1>
+      </div>
+
+      <div class="middle-content">
+        <div class="right-tab-section" [ngClass]="{ animate: isAnimated }">
+          <div class="tab-container">
+            <div class="tab-header">
+              <ng-container *ngFor="let tab of dynamicPageData; let i = index">
+                <div
+                  class="tab-item"
+                  [class.active]="i === activeTab"
+                  (click)="selectTab(i)"
+                >
+                  <div class="image-heading">
+                    <img [src]="tab.imageUrl" alt="vonome-hr-option-tab" />
+                    <h1>{{ tab.title }}</h1>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+            <div class="hidden-static-content">
+
+              <div class="tab-content">
+                <ng-container
+                  *ngFor="let tab of dynamicPageData; let i = index"
+                >
+
+                <div class="tab-cart flex items-center justify-center min-h-screen p-6 sm:p-4 xs:p-2">
+                  <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-sm w-full">
+                    <div class="relative">
+                      <img
+                        src="../../../../assets/images/Rectangle 129 (1).png"
+                        alt="Product image"
+                        class="w-full h-64 sm:h-48 xs:h-40 object-cover"
+                      />
+                    </div>
+                    <div class="p-5 sm:p-4 xs:p-2">
+                      <div class="flex justify-between items-start mb-3 sm:mb-2 xs:mb-1">
+                        <div>
+                          <h2 class="text-xl sm:text-lg xs:text-base font-semibold text-gray-800">
+                            IT Support Specialist
+                          </h2>
+                        </div>
+                      </div>
+                      <div class="py-2 sm:py-1"></div>
+                      <div class="flex items-center justify-between mb-3 sm:mb-2 xs:mb-1">
+                        <div class="flex text-yellow-400 text-lg sm:text-base xs:text-sm">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span class="text-gray-600 text-sm sm:text-xs ml-2">(4.5/5)</span>
+                        </div>
+                        <p class="text-md sm:text-sm xs:text-xs text-gray-500">$300</p>
+                      </div>
+
+                      <div class="flex items-center justify-between mb-4 sm:mb-2 xs:mb-1">
+                        <div class="flex items-center text-md sm:text-sm xs:text-xs">
+                          <i class="fas fa-clock text-orange-500 mr-2"></i>
+                          <span class="text-gray-600">See Info</span>
+                        </div>
+                        <button
+                          class="flex items-center bg-orange-500 text-white py-2 px-4 sm:py-1 sm:px-3 xs:py-1 xs:px-2 rounded-md font-semibold hover:bg-orange-600 transition-colors duration-200 text-md sm:text-sm xs:text-xs"
+                        >
+                          Enroll Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                </ng-container>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,139 @@
+{
+  "blogIcon": "fa-solid fa-blog",
+  "blogIconHeadings": [
+    {
+      "ln": "en",
+      "content": "Blog"
+    },
+    {
+      "ln": "bn",
+      "content": "ব্লগ"
+    }
+  ],
+  "blogHeadings": [
+    {
+      "ln": "en",
+      "content": "Welcome to our Blog Section!"
+    },
+    {
+      "ln": "bn",
+      "content": "স্বাগতম আমাদের ব্লগ সেকশনে!"
+    }
+  ],
+  "blogPeraHeadings": [
+    {
+      "ln": "en",
+      "content": "Here, we aim to publish informative and insightful articles, news, and much more. Through our blog, you can acquire knowledge on various topics, receive career advancement advice, and stay connected with us.<br>By sharing our published articles on this platform, we strive to enhance your knowledge and expertise on different subjects. Our blog covers discussions on technology, education, best practices, personal development, and more.<br><br><b>Subscribe to our website for notifications on new blog posts and follow us on our social media pages to stay updated.</b>"
+    },
+    {
+      "ln": "bn",
+      "content": "আমরা এখানে বিভিন্ন শিক্ষামূলক এবং মতামতমূলক লেখা, তথ্য, সংবাদ, এবং আরো অনেক কিছু প্রকাশ করতে চাই। আমাদের এই ব্লগ এর মাধ্যমে আপনি বিভিন্ন বিষয়ে জ্ঞান অর্জন করতে পারবেন, আপনার ক্যারিয়ার উন্নতির পরামর্শ পেতে পারবেন এবং আমাদের সাথে জড়িত থাকতে পারবেন।<br>আমরা এই ব্লগে প্রকাশ করা লেখাগুলির মাধ্যমে বিভিন্ন বিষয়ে আপনার জ্ঞান এবং অভিজ্ঞতা বৃদ্ধি করার কাজ করতে চাই। এই ব্লগে আমরা প্রযুক্তি, শিক্ষা, সেরা প্রকারের উপাদান এবং ব্যক্তিগত উন্নতি সম্পর্কিত বিষয়ে আলোচনা করব।<br><br><b>ব্লগের নতুন লেখা সম্পর্কে সবার জন্য নোটিফিকেশন পেতে আমাদের ওয়েবসাইটে সাবস্ক্রাইব করুন এবং আমাদের সামাজিক মিডিয়া পেইজগুলি ফলো করুন।</b>"
+    }
+  ],
+  "subscribeBtn": [
+    {
+      "ln": "en",
+      "content": "Subscribe"
+    },
+    {
+      "ln": "bn",
+      "content": "সাবস্ক্রাইব"
+    }
+  ],
+  "socialInfolabel": [
+    {
+      "ln": "en",
+      "content": "Follow Us On :"
+    },
+    {
+      "ln": "bn",
+      "content": "আমাদের অনুসরণ করুন :"
+    }
+  ],
+  
+  "blogCartTopImage": "assets/13295064_5172658.jpg",
+  "blogCartHeadings": [
+    {
+      "ln": "en",
+      "content": "Save Your Preferred Posts in Our Blog Cart."
+    },
+    {
+      "ln": "bn",
+      "content": "আমাদের ব্লগের কার্টে আপনার আগ্রহজনক পোস্টগুলি সংরক্ষণ করুন।"
+    }
+  ],
+  "blogCartSubHeadings": [
+    {
+      "ln": "en",
+      "content": " Store your favorite blog posts in your blog cart and revisit them later."
+    },
+    {
+      "ln": "bn",
+      "content": "আপনার প্রিয় ব্লগ পোস্টগুলি আপনার ব্লগ কার্টে সংরক্ষণ করুন এবং পুনরায় পঠিত করুন।"
+    }
+  ],
+  "blogCartImage": "/assets/man.jpg",
+  "blogCartName": [
+    {
+      "ln": "en",
+      "content": "Rashedul Islam"
+    },
+    {
+      "ln": "bn",
+      "content": "রাশেদুল ইসলাম"
+    }
+  ],
+  "blogCartTime": [
+    {
+      "ln": "en",
+      "content": "Time of Posting"
+    },
+    {
+      "ln": "bn",
+      "content": " পোস্ট করার সময়"
+    }
+  ],
+  "blogCartTimeIcon": "fa-solid fa-clock",
+  "blogArticleIcon": "fa-solid fa-newspaper",
+  "blogArticleHeadings": [
+    {
+      "ln": "en",
+      "content": "Article"
+    },
+    {
+      "ln": "bn",
+      "content": "প্রবন্ধ"
+    }
+  ],
+
+  "ArticleRecentBtn": [
+    {
+      "ln": "en",
+      "content": "Recent"
+    },
+    {
+      "ln": "bn",
+      "content": "সাম্প্রতিক"
+    }
+  ],
+  "ArticlePopularBtn": [
+    {
+      "ln": "en",
+      "content": "Popular"
+    },
+    {
+      "ln": "bn",
+      "content": "জনপ্রিয়"
+    }
+  ],
+  "loadMoreBtn": [
+    {
+      "ln": "en",
+      "content": "Load More"
+    },
+    {
+      "ln": "bn",
+      "content": "আরো দেখুন"
+    }
+  ]
+}

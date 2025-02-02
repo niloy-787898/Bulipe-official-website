@@ -1,0 +1,22 @@
+<section class="accounting-section">
+  <div class="container">
+    <div class="heading">
+      <h1>{{ dynamicConstentData.howDoesTop }}</h1>
+    </div>
+    <div class="feedback-main">
+      <div class="feedback-main-content">
+        <ng-container *ngFor="let feedback of dynamicPageData">
+          <div class="feedback-cart">
+            <div class="sticky-note">
+              <p>{{ feedback.names }}</p>
+            </div>
+            <h1 [innerHTML]="feedback.heading">
+              {{ feedback.heading }}
+            </h1>
+            <h2>{{ feedback.contents }}</h2>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

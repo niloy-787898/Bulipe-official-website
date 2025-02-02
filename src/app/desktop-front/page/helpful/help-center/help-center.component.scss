@@ -1,0 +1,196 @@
+.help-center-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 120px 20px;
+  height: auto;
+  background: linear-gradient(
+    to right,
+    rgba(236, 184, 255, 0.53),
+    rgba(234, 195, 255, 0.242)
+  );
+  overflow: hidden;
+}
+::ng-deep {
+.blue-text{
+  color: #6161ff !important;
+}
+}
+.page-title {
+  margin: 40px 0;
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    color: #000000;
+  }
+}
+.front-links-main {
+  .front-links-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    .link-container {
+      margin: 0;
+      padding: 15px;
+      a {
+        .link-content {
+          padding: 30px 15px 30px 30px;
+          border-radius: 6px;
+          height: 100%;
+          background: #fff;
+          border: 1px solid #6161ff;
+          .image-link {
+            min-height: 20px;
+            i {
+              font-size: 28px;
+              color: #6161ff;
+            }
+          }
+          .text-content {
+            transition: all 0.4s;
+            h2 {
+              font-family: "Fira Sans", sans-serif;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 20px;
+              color: #000000;
+              margin-top: 34px;
+              margin-bottom: 5px;
+              transition: all 0.4s;
+            }
+            p {
+              font-family: "Fira Sans", sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              color: #000000;
+              min-height: 35px;
+            }
+          }
+        }
+      }
+      &:hover {
+        a {
+          .link-content {
+            transition: all 0.6s ease-in-out;
+            background: #f7f7f79d;
+            border: 1px solid #343434;
+            .image-link {
+              transition: all 0.6s ease-in-out;
+            }
+            .text-content {
+              transition: all 0.4s;
+              h2 {
+                transition: all 0.4s;
+              }
+              p {
+                transition: all 0.4s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .help-center-section {
+    padding: 90px 20px;
+  }
+  .page-title {
+    margin: 25px 0;
+    h1 {
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 90%;
+    }
+  }
+  .front-links-main {
+    .front-links-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      .link-container {
+        margin: 0;
+        padding: 15px;
+        a {
+          .link-content {
+            padding: 25px 10px 25px 25px;
+            .image-link {
+              min-height: 15px;
+              i {
+                font-size: 22px;
+              }
+            }
+            .text-content {
+              h2 {
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+              }
+              p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                min-height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .help-center-section {
+    padding: 75px 15px;
+  }
+  .page-title {
+    margin: 25px 0;
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 90%;
+    }
+  }
+  .front-links-main {
+    .front-links-content {
+      display: grid;
+      grid-template-columns:1fr;
+      .link-container {
+        margin: 0;
+        padding: 10px;
+        a {
+          .link-content {
+            padding: 20px 10px 20px 20px;
+            .image-link {
+              min-height: 15px;
+              i {
+                font-size: 18px;
+              }
+            }
+            .text-content {
+              h2 {
+                font-size: 16px;
+                line-height: 20px;
+              }
+              p {
+                font-size: 14px;
+                line-height: 16px;
+                min-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

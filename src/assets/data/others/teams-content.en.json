@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "Rashedul Islam",
+    "MemberRole": "Co-Founder & CEO",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ImageUrl": "assets/nafia_islam.jfif",
+    "MemberName": "Nafia Masrura Iuha",
+    "MemberRole": "VP, Business Development",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ImageUrl": "assets/sunil.jpg",
+    "MemberName": "Sunil Chandra Karmakar",
+    "MemberRole": "Software Engineer",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "Shahinur Islam",
+    "MemberRole": "Software Engineer",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "Jashim Uddin",
+    "MemberRole": "Software Engineer",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "ImageUrl": "assets/rashedul_islam.jpg",
+    "MemberName": "Siyam Ahmed",
+    "MemberRole": "Project Manager",
+    "MemberSocialLink": [
+      {
+        "iconType": "fa-brands fa-facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "iconType": "fa-brands fa-twitter",
+        "link": "https://twitter.com/"
+      },
+      {
+        "iconType": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/"
+      },
+      {
+        "iconType": "fa-brands fa-google",
+        "link": "https://www.google.com/"
+      }
+    ]
+  }
+]

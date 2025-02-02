@@ -1,0 +1,103 @@
+<main-header></main-header>
+<!---sub-banner-area-->
+<div class="sub-banner-area">
+  <div class="sub-banner-main">
+    <div class="container">
+      <div class="img-content">
+        <img src="/assets/icons8-faq-80.png" alt="" />
+        <h1>{{ dynamicConstentData.FaqHeadingTop }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="faq-section">
+  <div class="container">
+    <div class="section1-main">
+      <div class="crm-inquary-section">
+        <div class="crm-inquary-main">
+          <div class="accordion">
+            <div
+              class="accordion-item"
+              *ngFor="let serviceInfo of serviceProductInfo; let i = index"
+            >
+              <div class="accordion-heading" (click)="toggleAccordion(i)">
+                <h1>{{ serviceInfo.AccordianHeading }}</h1>
+                <i
+                  [class]="
+                    'arrow-icon ' +
+                    (serviceInfo.expanded
+                      ? 'fa-solid fa-angle-up'
+                      : 'fa-solid fa-angle-down')
+                  "
+                ></i>
+              </div>
+              <div class="accordion-content" [hidden]="!serviceInfo.expanded">
+                <p>{{ serviceInfo.AccordianContents }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Product Wise Faq -->
+<section class="product-wise-faq-section">
+  <div class="container">
+    <div class="product-wise-faq-main">
+      <div class="product-faq-title">
+        <h1>{{ dynamicConstentData.productWiseFaqHeading }}</h1>
+      </div>
+      <div class="faq-tab-accordian">
+        <div class="product-tab-main">
+          <div class="tab-header" webDragScroll>
+            <ng-container *ngFor="let tab of dynamicPageData; let i = index">
+              <div
+                class="tab-item"
+                [class.active]="i === activeTab"
+                (click)="selectTab(i)"
+              >
+                <div class="image-heading">
+                  <img [src]="tab.imageUrl" alt="Tab Image" />
+                </div>
+                <p>{{ tab.titles }}</p>
+              </div>
+            </ng-container>
+          </div>
+          <div class="tab-content">
+            <ng-container
+              *ngFor="let productInfo of dynamicPageData; let i = index"
+            >
+              <div class="tab-pane" [class.active]="i === activeTab">
+                <div class="sub-content">
+                  <div class="heading-content">
+                    <h1>{{ productInfo.headings }}</h1>
+                    <h2>{{ productInfo.subHeadings }}</h2>
+                  </div>
+
+                  <div class="accordion">
+                    <ng-container *ngFor="let productsubInfo of productInfo.accordian; let j = index">
+                      <div class="accordion-item">
+                        <div class="accordion-heading" (click)="toggleAccordion2(i, j)">
+                          <h1>{{ productsubInfo.accordianHeading }}</h1>
+                          <i [class]="productsubInfo.expanded ? 'arrow-icon fa-solid fa-angle-up' : 'arrow-icon fa-solid fa-angle-down'"></i>
+                        </div>
+                        <div class="accordion-content" [hidden]="!productsubInfo.expanded">
+                          <p>{{ productsubInfo.accordianContent }}</p>
+                        </div>
+                      </div>
+                    </ng-container>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<web-main-footer></web-main-footer>

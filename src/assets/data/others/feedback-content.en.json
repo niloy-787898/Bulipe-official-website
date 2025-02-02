@@ -1,0 +1,30 @@
+[
+  {
+    "ImageUrl": "assets/why_we.svg",
+    "heading": "<span style='color: #83c5f8;'>Rebound</span>",
+    "contents": "Vonome is the strategic partner for our software development. We enjoy the collaboration that has resulted in various success stories.",
+    "names": "Roger Farnadose",
+    "roles": "Co-Founder, Lebanon"
+  },
+  {
+    "ImageUrl": "assets/why_we.svg",
+    "heading": "<span style='color: #3e79e9;'>CommuniTrader</span>",
+    "contents": "Vonome's holistic approach, professional support, and flexibility to our needs allow us to continuously achieve our project goals.",
+    "names": "Dennis",
+    "roles": "CEO & Founder, USA"
+  },
+  {
+    "ImageUrl": "assets/why_we.svg",
+    "heading": "<span style='color: #c57ee9;'>Union Textile</span>",
+    "contents": "Vonome has enabled us to rapidly improve & implement features to strengthen our platform's position in the market.",
+    "names": "Tanvir Mahtab",
+    "roles": "Co-Founder, Bangladesh"
+  },
+  {
+    "ImageUrl": "assets/why_we.svg",
+    "heading": "<span style='color: #e97e97;'>M/S Khulna Shop</span>",
+    "contents": "Vonome has enabled us to rapidly improve & implement features to strengthen our platform's position in the market.",
+    "names": "Rahat Faysal",
+    "roles": "owner, Bangladesh"
+  }
+]

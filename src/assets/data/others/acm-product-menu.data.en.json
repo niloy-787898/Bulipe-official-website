@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings": "User Access Control",
+    "subHeading": "<span style='color: rgba(197, 122, 69)'>Controlled Access to Data</span>",
+    "description": "Assign specific access levels and permissions to users, ensuring data security and restricting unauthorized access to sensitive information.",
+    "AccordianHeading": "Reporting and Analytics",
+    "AccordianContents": "Generate detailed reports and analytics on financial performance, customer behavior, and account activity, facilitating informed decision-making.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings": "Account Monitoring",
+    "subHeading": "<span style='color: #83c5f8;'>Real-time Account Tracking</span>",
+    "description": "Track account balances, transactions, and financial activities in real-time, providing an overview of account status and enabling proactive management.",
+    "AccordianHeading": "Account Integration",
+    "AccordianContents": "Integrate with other systems such as CRM or ERP to synchronize customer data, streamline operations, and ensure data consistency across platforms.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings": "Payment Processing",
+    "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Streamline Financial Transactions</span>",
+    "description": "Simplify payment processing by integrating with payment gateways, automating invoice generation, and enabling secure online payments for customers.",
+    "AccordianHeading": "Audit Trail",
+    "AccordianContents": "Maintain a complete audit trail of account activities, including user actions, changes to account settings, and transaction history for compliance and accountability purposes.",
+    "expanded": false
+  }
+]

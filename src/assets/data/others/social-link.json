@@ -1,0 +1,18 @@
+[
+  {
+    "iconType": "fa-brands fa-facebook",
+    "link": "https://www.facebook.com/"
+  },
+  {
+    "iconType": "fa-brands fa-twitter",
+    "link": "https://twitter.com/"
+  },
+  {
+    "iconType": "fa-brands fa-linkedin",
+    "link": "https://www.linkedin.com/"
+  },
+  {
+    "iconType": "fa-brands fa-google",
+    "link": "https://www.google.com/"
+  }
+]

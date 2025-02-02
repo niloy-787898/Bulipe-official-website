@@ -1,0 +1,61 @@
+.cookies-section {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 120px 20px;
+    height: auto;
+    background: linear-gradient(
+      to right,
+      rgba(140, 199, 236, 0.329),
+      rgba(195, 255, 245, 0.242)
+    );
+    overflow: hidden;
+  }
+  .cookies-main {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    h1 {
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      color: rgba(0, 0, 0, 0.6);
+      vertical-align: baseline;
+      padding: 20px 0;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 28px;
+      color: rgba(0, 0, 0, 0.6);
+      vertical-align: baseline;
+      padding: 15px 0;
+    }
+    p {
+      margin: 0;
+      padding: 15px 0;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: rgba(0, 0, 0, 0.6);
+      vertical-align: baseline;
+    }
+    ol {
+      list-style: decimal;
+      margin-bottom: 30px;
+      padding-left: 50px;
+      li {
+        padding-left: 0;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  

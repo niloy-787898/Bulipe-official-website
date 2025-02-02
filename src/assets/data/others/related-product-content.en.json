@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "slug": "/products/vonome-product-crm",
+    "ImageUrl": "assets/crm.svg",
+    "RelatedProductName": "Vonome CRM System",
+    "RelatedProductHeadings": "For professionals and teams managing tasks & workflows",
+    "RelatedProductContents": "Manage tasks, projects, and processes to fuel collaboration and efficiency at scale.",
+    "RelatedProductBtn": "Get Started"
+  },
+  {
+    "id": 2,
+    "slug": "/products/vonome-product-hrpayroll",
+    "ImageUrl": "assets/hr.svg",
+    "RelatedProductName": "Vonome HR & PayRoll System",
+    "RelatedProductHeadings": "For sales professionals and customer-facing teams & members",
+    "RelatedProductContents": "Track and manage all aspects of your sales cycle, customer data, and more in one place.",
+    "RelatedProductBtn": "Get Started"
+  },
+  {
+    "id": 3,
+    "slug": "/products/vonome-product-easyaccounts",
+    "ImageUrl": "assets/accounting.svg",
+    "RelatedProductName": "Vonome ACM System",
+    "RelatedProductHeadings": "For product and development professionals and teams",
+    "RelatedProductContents": "Build agile workflows to drive impact across your product, design, and R&D teams & production.",
+    "RelatedProductBtn": "Get Started"
+  },
+  {
+    "id": 4,
+    "slug": "/products/vonome-product-task-bing",
+    "ImageUrl": "assets/task_bing.svg",
+    "RelatedProductName": "Vonome Task Bing System",
+    "RelatedProductHeadings": "For professionals and teams managing tasks & workflows",
+    "RelatedProductContents": "Track and manage all aspects of your sales cycle, customer data, and more in one place.",
+    "RelatedProductBtn": "Get Started"
+  }
+]

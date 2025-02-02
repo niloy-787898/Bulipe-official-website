@@ -1,0 +1,23 @@
+<section class="timeline-section">
+  <div class="bg-image"></div>
+  <div class="container">
+    <div class="timeline-main">
+      <div class="top-section">
+        <h1>{{ dynamicConstentData.WhyWeAreBestFitHeading }}</h1>
+      </div>
+      <div class="timeline">
+        <div class="lineMain"></div>
+        <div class="cart" *ngFor="let cart of dynamicPageData">
+          <div class="bead">
+            <img [src]="cart.url" alt="Image" />
+          </div>
+          <div class="content">
+            <img [src]="cart.url" alt="Image" />
+            <h2>{{ cart.headings }}</h2>
+            <p>{{ cart.contents }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "tabIcon": "fa-solid fa-users-viewfinder",
+    "tabHeadings": "Overview",
+    "contentHeading": "Visionary Insights for Success",
+    "contentSubHeading": "Get a Bird's Eye View",
+    "contentDescription": "Welcome to our software platform, where we empower businesses with cutting-edge technology to streamline their operations and drive growth. With our Overview feature, you'll gain a comprehensive and insightful bird's eye view of your entire business ecosystem. Visualize key performance indicators, monitor progress, and make data-driven decisions with ease. Our intuitive interface simplifies complex data, allowing you to focus on what matters most - achieving success.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 2,
+    "tabIcon": "fa-solid fa-eye",
+    "tabHeadings": "View",
+    "contentHeading": " Unleash Business Clarity Through Visuals",
+    "contentSubHeading": "Unparalleled Data Visualization",
+    "contentDescription": "With our View feature, experience unparalleled data visualization that transforms raw information into meaningful insights. Gain a clear perspective on your business processes through interactive charts, graphs, and dashboards. Effortlessly navigate through your data and identify trends, anomalies, and opportunities at a glance. Our advanced visualization tools empower you to make informed decisions and stay ahead of the competition.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 3,
+    "tabIcon": "fa-brands fa-intercom",
+    "tabHeadings": "Customization",
+    "contentHeading": "Tailor-Made Solutions for Your Enterprise",
+    "contentSubHeading": "Tailor-Made for Your Needs",
+    "contentDescription": "We understand that every business is unique, and that's why our software comes with extensive customization capabilities. Tailor-make your workflows, settings, and user interfaces to match your specific requirements. Whether it's automating repetitive tasks, configuring personalized reports, or integrating third-party tools, our platform adapts to fit seamlessly into your business processes, enhancing productivity and efficiency.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 4,
+    "tabIcon": "fa-solid fa-people-group",
+    "tabHeadings": "Collaboration",
+    "contentHeading": "Amplify Team Synergy with Seamless Collaboration",
+    "contentSubHeading": "Teamwork at Its Best",
+    "contentDescription": "Foster a culture of seamless collaboration within your organization with our Collaboration feature. Share information, assign tasks, and communicate effortlessly with team members. Whether your team is in the same office or spread across the globe, our platform ensures real-time connectivity, promoting efficient project management and cohesive teamwork.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 5,
+    "tabIcon": "fa-solid fa-file",
+    "tabHeadings": "Docs",
+    "contentHeading": "Streamlined Document Handling for Enhanced Efficiency",
+    "contentSubHeading": "Centralized Document Management",
+    "contentDescription": "Say goodbye to scattered files and confusion over versions with our Docs feature. Centralize all your important documents, manuals, and files in one secure location. Collaborate on documents in real-time, track changes, and ensure everyone is on the same page. Our intuitive document management system simplifies your workflow and boosts productivity, making document handling a breeze.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 6,
+    "tabIcon": "fa-solid fa-file-invoice",
+    "tabHeadings": "Reporting",
+    "contentHeading": "Data-Driven Insights for Informed Decisions",
+    "contentSubHeading": "Comprehensive Data Reports",
+    "contentDescription": "Make data-driven decisions effortlessly with our Reporting feature. Access a wide array of comprehensive data reports, visualizations, and analytics tools. Customize reports to focus on the metrics that matter most to your business. Our advanced reporting capabilities empower you to track progress, identify growth opportunities, and strategize effectively for the future.",
+    "contentImage": "assets/crm-content2.png"
+  },
+  {
+    "id": 7,
+    "tabIcon": "fa-solid fa-clock",
+    "tabHeadings": "Time",
+    "contentHeading": "Optimize Efficiency with Smart Time Management",
+    "contentSubHeading": "Time Tracking and Management",
+    "contentDescription": "Maximize productivity and efficiency with our Time feature. Track working hours, manage tasks, and allocate resources effectively. Our time management tools help you optimize project timelines, ensure timely deliveries, and maintain a well-organized workflow. Stay in control of your time and achieve peak performance.",
+    "contentImage": "assets/crm-content2.png"
+  }
+]

@@ -1,0 +1,126 @@
+<main-header></main-header>
+<!-- Docs & Resources Banner Section -->
+<section class="docs-resources-banner-section">
+  <div class="docs-resources-main">
+    <div class="background-image">
+      <div class="container">
+        <div class="docs-resources-sub-upper">
+          <div class="heading-content">
+            <h1>{{ dynamicConstentData.DocHeadings }}</h1>
+            <h2>{{ dynamicConstentData.DocSubHeadings }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Docs & Resources Main -->
+<section class="docs-resouce-section">
+  <div class="docs-resouce-main">
+    <div
+      class="sidebar-main"
+      [ngClass]="{ 'sidebar-expanded': sidebarExpanded }"
+    >
+      <div class="sidebar-header">
+        <div class="heding-main">
+          <h1
+            [ngClass]="{ hide: sidebarExpanded }"
+          >{{ dynamicConstentData.DocHeadings }}</h1>
+        </div>
+        <div class="hamburger-menu" (click)="toggleSidebar()">
+          <i
+            class="icon fa-solid fa-file"
+            [ngClass]="{ hide: !sidebarExpanded }"
+          ></i>
+          <i
+            [class]="
+              sidebarExpanded
+                ? 'fa-solid fa-angle-right'
+                : 'fa-solid fa-angle-left'
+            "
+          ></i>
+        </div>
+      </div>
+      <ul class="sidebar-menu" [ngClass]="{ show: sidebarExpanded }">
+        <ng-container *ngFor="let appMenu of dynamicPageData; let i = index">
+          <ng-container *ngIf="appMenu.submenu.length < 1; else withDropdown">
+            <li class="sidebar-item-heading" (click)="setActiveTab(appMenu)">
+              <div class="sidebar-menu-item-one">
+                <div class="tag-icon">
+                  <i [class]="appMenu.icon"></i>
+                </div>
+                <div class="header-heading">
+                  <h1
+                    [ngClass]="{ hide: sidebarExpanded }"
+                  >{{ appMenu.label }}</h1>
+                </div>
+              </div>
+            </li>
+          </ng-container>
+          <ng-template #withDropdown>
+            <li
+              class="sidebar-item-heading"
+              (click)="toggleAccordions(appMenu)"
+            >
+              <div class="sidebar-menu-item-dropdown">
+                <div class="accordion-heading">
+                  <div class="tag-icon">
+                    <i [class]="appMenu.icon"></i>
+                  </div>
+                  <div class="header-heading">
+                    <h1
+                      [ngClass]="{ hide: sidebarExpanded }"
+                    >{{ appMenu.label }}</h1>
+                  </div>
+                </div>
+                <div class="dropdown-icon">
+                  <i
+                    [class]="
+                      'arrow-icon ' +
+                      (appMenu.expanded
+                        ? 'fa-solid fa-angle-up'
+                        : 'fa-solid fa-angle-down')
+                    "
+                    [ngClass]="{ hide: sidebarExpanded }"
+                  ></i>
+                </div>
+              </div>
+
+              <ul
+                class="dropdown-list-main"
+                [ngClass]="{ hide: !appMenu.expanded }"
+              >
+                <li
+                  class="dropdown-item-list"
+                  *ngFor="let subMenu of appMenu.submenu"
+                  (click)="setActiveTab(subMenu)"
+                  [ngClass]="{ hide: sidebarExpanded }"
+                >
+                  <div class="sublist-main">
+                    <div class="tag-icon">
+                      <i [class]="subMenu.icon"></i>
+                    </div>
+                    <div class="details">
+                      <h1>{{ subMenu.label }}</h1>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ng-template>
+        </ng-container>
+      </ul>
+    </div>
+    <div
+      class="content-main"
+      [ngClass]="{ 'content-expanded': sidebarExpanded }"
+    >
+      <div class="content-header">
+        <h1>{{ 'body heading' }}</h1>
+      </div>
+      <div class="body-content" [innerHTML]="activeTabContent">
+      </div>
+    </div>
+  </div>
+</section>
+<web-main-footer></web-main-footer>

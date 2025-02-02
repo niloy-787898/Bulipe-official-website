@@ -1,0 +1,297 @@
+.accounting-section {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding:0 20px 100px 20px;
+  overflow: hidden;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 30px;
+  margin: 0 auto;
+
+  h1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 20px; /* Adjust to control spacing */
+    color: #242424;
+    position: relative;
+    text-align: center;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 103px; /* Border width */
+      height: 2px; /* Border thickness */
+      background-color: #F15B2D; /* Border color */
+      position: absolute;
+      left: 50%;
+      bottom: -10px; /* Adjust the spacing between text and border */
+      transform: translateX(-50%);
+    }
+  }
+}
+.accounting-main {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+}
+.accounting-sub-one {
+  width: 30%;
+  background: #a6e2e2;
+  border: 1px solid #ffffff;
+  padding: 40px;
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+  &:hover .accounting-sub-one {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  h1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #242424;
+  }
+  p {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    color: #242424;
+    max-width: 570px;
+    color: #242424;
+  }
+
+  .explore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    background: #004464;
+    border-radius: 61px;
+    width: 210px;
+    padding: 8px 0px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    &:hover {
+      outline: none;
+      background: #004464 radial-gradient(circle, transparent 1%, #004464)
+        center/15000%;
+    }
+    button {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    i {
+      color: #ffffff;
+    }
+  }
+  .hide-content-accodian {
+    display: none;
+  }
+}
+.accounting-sub-two {
+  position: relative;
+  width: 70%;
+
+  .background-portion {
+    position: relative;
+    .account-data-image {
+      object-fit: cover;
+      margin: 0 auto;
+      z-index: 1;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 350px; /* Ensures the image scales correctly */
+      }
+    }
+  }
+}
+.explore-btn-copy {
+  display: none;
+}
+.accounting-sub-one,
+.accounting-sub-two {
+  /* Your regular styles here */
+  opacity: 0; /* Initially hide the divs */
+  transform: translateX(-50px); /* Slide them off the left side */
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.accounting-sub-one.animate,
+.accounting-sub-two.animate {
+  opacity: 1; /* Show the divs with fade-in effect */
+  transform: translateX(0); /* Slide them back to their original position */
+}
+
+@media (max-width: 1100px) {
+  .accounting-section {
+    padding: 80px 20px;
+  }
+  .accounting-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .accounting-sub-one {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+
+    h1 {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      max-width: 450px;
+      margin-bottom: 30px;
+    }
+    .explore-btn {
+      gap: 3px;
+      border-radius: 61px;
+      width: 190px;
+      padding: 10px 0px;
+
+      button {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+  .accounting-sub-two {
+    width: 100%;
+    position: relative;
+    .background-portion {
+      position: relative;
+      .account-data-image {
+        object-fit: cover;
+        margin: 0 auto;
+        z-index: 1;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 350px; /* Ensures the image scales correctly */
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .accounting-section {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 60px 15px;
+  }
+
+  .accounting-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+  }
+  .accounting-sub-one {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding-bottom: 20px;
+    h1 {
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  .accounting-sub-two {
+    width: 100%;
+    position: relative;
+    padding: 0 0 30px 0;
+    .two {
+      display: none;
+    }
+    .one {
+      display: none;
+    }
+    .background-portion {
+      position: relative;
+      .account-data-image {
+        object-fit: cover;
+        margin: 0 auto;
+        z-index: 1;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 350px; /* Ensures the image scales correctly */
+        }
+      }
+    }
+  }
+  .center-btn {
+    margin: 0 auto;
+    .explore-btn-copy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      color: black;
+      background: #f5cc00;
+      border-radius: 61px;
+      width: 175px;
+      padding: 10px 0px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      &:hover {
+        outline: none;
+        background: #ffe666 radial-gradient(circle, transparent 1%, #ffe666)
+          center/15000%;
+      }
+      button {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

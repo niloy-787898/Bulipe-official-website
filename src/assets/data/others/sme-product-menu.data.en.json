@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/Group-1.png",
+    "headings": "Accounting Management",
+    "subHeading": "<span style='color: #c57ee9;'>Account & Finance Report Tracking</span>",
+    "description": "SME software typically includes modules for managing financial transactions, invoicing, billing, and bookkeeping. It may also have features for generating financial reports, tracking expenses, and managing budgets.",
+    "AccordianHeading": "Digital Transformation",
+    "AccordianContents": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/Group-1.png",
+    "headings": "Inventory Management",
+    "subHeading": "<span style='color: #83c5f8;'>Track Your Sales Report Continuesly</span>",
+    "description": "SME software often includes inventory management capabilities, allowing businesses to track and manage their stock levels, automate reordering processes, and generate reports on inventory status.",
+    "AccordianHeading": "Customer Relationship Management",
+    "AccordianContents": "In today's digital age, SMEs must embrace technology to stay competitive. This section will discuss the importance of digital transformation for SMEs and provide insights into specific digital tools and strategies they can adopt. Topics can include e-commerce platforms, digital marketing, customer relationship management (CRM) systems, and automation technologies.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/Group-1.png",
+    "headings": "Sales and Marketing",
+    "subHeading": "<span style='color: #e97e97;'>Account & Finance Report Tracking</span>",
+    "description": "SME software typically includes modules for managing financial transactions, invoicing, billing, and bookkeeping. It may also have features for generating financial reports, tracking expenses, and managing budgets.",
+    "AccordianHeading": "Financial Management and Funding",
+    "AccordianContents": "Effective financial management is essential for the long-term success of SMEs. This section will cover topics such as budgeting, cash flow management, financial forecasting, and accessing funding options specifically tailored for SMEs. It can provide guidance on financial best practices, working with investors, and utilizing government programs and grants.",
+    "expanded": false
+  }
+]

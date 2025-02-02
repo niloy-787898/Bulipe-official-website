@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings":"Payroll Automation",
+    "subHeading":"<span style='color: rgba(197, 122, 69)'>Efficient Salary Management System</span>",
+    "description":"Streamline payroll calculations, deductions, and tax filings with automated software, ensuring accurate and timely payments for employees.",
+    "AccordianHeading":"Integration Capabilities",
+    "AccordianContents":"Integrate HR and Payroll systems with accounting, employee management, and time-tracking tools for smooth data exchange, eliminating duplication of efforts.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings":"Employee Self-Service",
+    "subHeading":"<span style='color: rgba(186, 197, 69);'>Manage Personal Information</span>",
+    "description":"Provide employees with secure portals to access pay stubs, update personal details, and view benefits information, reducing administrative workload.",
+    "AccordianHeading": "Data Security",
+    "AccordianContents":"Implement robust security measures, including encryption and access controls, to safeguard sensitive employee information and prevent data breaches.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings":"Automated Time Tracking",
+    "subHeading":  "<span style='color:rgb(97, 97, 255, 0.78);'>Efficient Attendance Management</span>",
+    "description": "Capture accurate employee work hours, calculate overtime, and integrate seamlessly with payroll systems, eliminating manual tracking and reducing errors.",
+    "AccordianHeading": "Compliance Management",
+    "AccordianContents": "Stay up to date with changing regulations, generate accurate reports for taxes and benefits, and reduce the risk of penalties and audits.",
+    "expanded": false
+  }
+]
+
+

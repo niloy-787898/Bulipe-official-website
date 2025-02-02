@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "/products/vonome-product-sme",
+    "key": "product-sme",
+    "order": 1,
+    "icon": "assets/sme.svg",
+    "label": "BN-SME"
+  },
+  {
+    "slug": "/products/vonome-product-crm",
+    "key": "products",
+    "order": 2,
+    "icon": "assets/crm.svg",
+    "label": "CRM"
+  },
+  {
+    "slug": "/products/vonome-product-erp",
+    "key": "product-erp",
+    "order": 3,
+    "icon": "assets/erp.svg",
+    "label": "ERP"
+  },
+  {
+    "slug": "/products/vonome-product-hrpayroll",
+    "key": "product-hrpayroll",
+    "order": 4,
+    "icon": "assets/hr.svg",
+    "label": "HR"
+  },
+  {
+    "slug": "/products/vonome-product-invoicemanager",
+    "key": "product-invoicemanager",
+    "order": 5,
+    "icon": "assets/e-invoice.svg",
+    "label": "E-Invoice"
+  },
+  {
+    "slug": "/products/vonome-product-easyaccounts",
+    "key": "product-easyaccounts",
+    "order": 6,
+    "icon": "assets/accounting.svg",
+    "label": "Accounting"
+  },
+  {
+    "slug": "/products/vonome-product-task-bing",
+    "key": "product-task-bing",
+    "order": 7,
+    "icon": "assets/task_bing.svg",
+    "label": "Task Bing"
+  }
+]

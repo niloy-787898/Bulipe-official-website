@@ -1,0 +1,89 @@
+apiVersion: v2
+name: my-angular-app
+description: A Helm chart for deploying an Angular project on GKE with Traefik
+
+# Default values for the chart
+values:
+  image:
+    repository: gcr.io/my-project/my-angular-app
+    tag: latest
+  service:
+    type: ClusterIP
+    port: 80
+  ingress:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: traefik
+      traefik.ingress.kubernetes.io/router.entrypoints: web
+      traefik.ingress.kubernetes.io/router.tls: true
+    host: example.com
+    path: /my-angular-app
+  replicaCount: 1
+
+# Chart dependencies
+dependencies:
+- name: traefik
+  version: 2.3.4
+  repository: https://helm.traefik.io/traefik
+
+# Resources defined by the chart
+kind: Deployment
+metadata:
+  name: my-angular-app
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: my-angular-app
+  template:
+    metadata:
+      labels:
+        app: my-angular-app
+    spec:
+      containers:
+      - name: my-angular-app
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        ports:
+        - containerPort: {{ .Values.service.port }}
+        readinessProbe:
+          httpGet:
+            path: /
+            port: {{ .Values.service.port }}
+        livenessProbe:
+          httpGet:
+            path: /
+            port: {{ .Values.service.port }}
+kind: Service
+metadata:
+  name: my-angular-app
+spec:
+  selector:
+    app: my-angular-app
+  ports:
+  - name: http
+    port: {{ .Values.service.port }}
+    targetPort: {{ .Values.service.port }}
+  type: {{ .Values.service.type }}
+
+# IngressRoute resource
+{{- if .Values.ingress.enabled }}
+kind: IngressRoute
+metadata:
+  name: my-angular-app
+  annotations:
+    {{- toYaml .Values.ingress.annotations | nindent 4 }}
+spec:
+  entryPoints:
+    - web
+  routes:
+  - match: Path(`{{ .Values.ingress.path }}`)
+    kind: Rule
+    services:
+    - name: my-angular-app
+      port: http
+  tls:
+    certResolver: default
+    domains:
+    - main: 
+        - {{ .Values.ingress.host }}
+{{- end }}

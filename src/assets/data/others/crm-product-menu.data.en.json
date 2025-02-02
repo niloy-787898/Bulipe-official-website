@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/crm-content.png",
+    "headings": "Flexible and intuitive",
+    "subHeading": "<span style='color: rgba(197, 122, 69)'>Customizable to fit your sales cycle</span>",
+    "description": "Easily tailor your CRM software to work for you, without any development help. Edit deal stages, add as many columns as you'd like, manage multiple pipelines at once, and more.",
+    "AccordianHeading": "email privacy settings",
+    "AccordianContents": "Share your email account and easily control the privacy configuration with the new email privacy settings. Determine exactly who can see, send, or read emails with just a few clicks, so you know key information is always secure.",
+    "expanded": false
+  },
+  {
+    "id": 2,
+    "image": "assets/crm-content2.png",
+    "headings": "Automations",
+    "subHeading": "<span style='color: #83c5f8;'>Save valuable time by automation</span>",
+    "description": "Close more deals by automating repetitive work. Automatically assign leads to reps, set reminders for upcoming activities, get notified when a lead opens an email, and more.",
+    "AccordianHeading": "emails at scale",
+    "AccordianContents": "Reach large audiences at scale with personalized messages using the mass email feature. By selecting recipients, adding personalizations based on columns, and using templates, sales reps can send hundreds of emails in a fraction of the time.",
+    "expanded": false
+  },
+  {
+    "id": 3,
+    "image": "assets/crm-content1.png",
+    "headings": "Emails & Activities",
+    "subHeading": "<span style='color:rgb(97, 97, 255, 0.78);'>Centralize client communication</span>",
+    "description": "Communicate efficiently with your contacts by integrating your email. Automatically log sent emails, keep track of interactions, and use personalized email templates to save you time.",
+    "AccordianHeading": "ranked in a leaderboard",
+    "AccordianContents": "With the new Leaderboard widget, you can see your sales reps ranked based on performance. Know who’s excelling and who needs extra support based on metrics like win rate, deal value, conversion rate, and more. Plus, see the average length of each phase.",
+    "expanded": false
+  }
+]
